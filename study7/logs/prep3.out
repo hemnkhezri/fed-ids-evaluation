@@ -1,0 +1,8 @@
+edgeiiot rows 2219201 with time and label 2096419
+edgeiiot features 49 categorical ['arp.dst.proto_ipv4', 'arp.src.proto_ipv4', 'dns.qry.name.len', 'http.referer', 'http.request.method', 'http.request.version', 'mqtt.conack.flags', 'mqtt.protoname', 'mqtt.topic'] dropped ['http.file_data', 'http.request.full_uri', 'http.request.uri.query', 'mqtt.msg', 'tcp.options', 'tcp.payload']
+edgeiiot after duplicate removal 1786219
+edgeiiot systematic sample every 6th record -> 297704
+edgeiiot train 178622 records, attack share 0.3102
+edgeiiot validation 119082 records, attack share 0.1265
+edgeiiot region rule satisfied: True
+edgeiiot saved /home/claude/s7/data/edgeiiot.npz sha256 b5b8e18499a6d6ad19a11da9e4cfb58d76180feea0e8c00bc998303031fe27dc

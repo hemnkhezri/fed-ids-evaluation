@@ -1,0 +1,56 @@
+{
+ "id": "Q3-03",
+ "citation": "Sengan S, Shieh C-S (2026). Non-IID and aware federated intrusion detection with PBFT with secured model aggregation for multi institutional healthcare internet of things networks. Scientific Reports.",
+ "url_read": "https://www.nature.com/articles/s41598-026-56167-4.pdf (read via WebFetch; direct download blocked by proxy)",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "No train/validation/test split stated; only 'The federation is simulated by partitioning the IoT-Flock and CICIoT2023 across K = 12 virtual institutional nodes' (Experimental setup)."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "Table 3: 'BiLSTM Sequence length T 10'; construction of sequences and split not described."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "Normalization Eq. (25) uses institution-specific statistics mu^pi_{k,j}, sigma^pi_{k,j}; not stated whether computed on training data only."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "Table 4: 'Local training steps per round tau 10', 'Maximum federation rounds Tmax 200'."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "No statement that FedAvg/FedProx/SCAFFOLD/FedNova use the Table 4 settings; only 'All federated methods share the same base local computation cost of O(tau N_k p)' (complexity analysis)."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "Table 13 'Comparison of SOTA' lists published results (e.g., Begum et al. Edge-IIoTset/TON-IoT, Peng et al. N-BaIoT) from other papers; Table 6 baselines appear run by authors."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Tables 6-7 report 'Accuracy (%)', 'F1 (%)', 'AUC-ROC'; no MCC/balanced accuracy."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "'Dirichlet-based class proportion sampling ... at 3 concentration levels alpha in {0.1, 0.5, 1.0}' plus quantity and feature skew."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "Table 7: '± values represent standard deviation across alpha in {0.1, 0.5, 1.0} heterogeneity severity levels'; fixed seed 42; no repeated runs."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Datasets evaluated separately; Limitations mentions 'generalization gap of 8.47% between the IoT-Flock and CICIoT2023 transfer directions' but no cross-dataset experiment is reported."
+  },
+  "A11": {
+   "code": "yes",
+   "evidence": "Code: 'https://github.com/sudhakarsengan/N-IID-AFIDS-pipeline-' and Zenodo 10.5281/zenodo.19998451."
+  }
+ },
+ "datasets": [
+  "IoT-Flock",
+  "CICIoT2023"
+ ],
+ "notes": "Mixed baselines: six baselines (centralized BC+DL, FedAvg, FedProx, SCAFFOLD, FedNova, no-PBFT variant) apparently run by authors in Tables 6-7 without stated parity; Table 13 compares with numbers from other papers (A6=copied because some copied). A5 coded for the re-run baselines. ± values are across heterogeneity levels, not runs. Text read through WebFetch extraction, not a local PDF."
+}

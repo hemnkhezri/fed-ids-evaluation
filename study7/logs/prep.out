@@ -1,0 +1,16 @@
+wustl rows 1194464 with time and label 1194464
+wustl features 41 categorical [] dropped []
+wustl after duplicate removal 1172268
+wustl systematic sample every 4th record -> 293067
+wustl train 175841 records, attack share 0.0758
+wustl validation 117226 records, attack share 0.0256
+wustl region rule satisfied: True
+wustl saved /home/claude/s7/data/wustl.npz sha256 3fd18ed43c1c9ba443005d4cbd0f133e791caaae2bf95bc2b091faf026f1ccb7
+unsw rows 120000 with time and label 120000
+unsw features 38 categorical ['proto', 'state', 'service'] dropped []
+unsw after duplicate removal 323
+unsw label-count rule: 10 blocks leave a class below 1% in a region -> 10 interleaved blocks
+unsw train 162 records, attack share 0.0
+unsw validation 161 records, attack share 0.1925
+unsw region rule satisfied: False
+unsw saved /home/claude/s7/data/unsw.npz sha256 bf15e424ed2f0073942cd0f83cb34c37154c544260031540190cbf4bdc81a161

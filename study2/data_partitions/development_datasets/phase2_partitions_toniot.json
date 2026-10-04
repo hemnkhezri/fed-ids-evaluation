@@ -1,0 +1,262 @@
+[
+ {
+  "dataset": "toniot",
+  "partition_seed": 101,
+  "attempts": 3,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   69,
+   193,
+   169,
+   31
+  ],
+  "train_attack": [
+   1,
+   183,
+   169,
+   1
+  ],
+  "val_sizes": [
+   18,
+   42,
+   31,
+   3
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 102,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   70,
+   55,
+   49,
+   288
+  ],
+  "train_attack": [
+   16,
+   50,
+   1,
+   287
+  ],
+  "val_sizes": [
+   15,
+   9,
+   12,
+   58
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 103,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   25,
+   44,
+   285,
+   108
+  ],
+  "train_attack": [
+   18,
+   43,
+   269,
+   24
+  ],
+  "val_sizes": [
+   6,
+   13,
+   56,
+   19
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 104,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   139,
+   131,
+   97,
+   95
+  ],
+  "train_attack": [
+   139,
+   34,
+   97,
+   84
+  ],
+  "val_sizes": [
+   23,
+   34,
+   22,
+   15
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 105,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   56,
+   144,
+   57,
+   205
+  ],
+  "train_attack": [
+   6,
+   143,
+   48,
+   157
+  ],
+  "val_sizes": [
+   9,
+   35,
+   10,
+   40
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 106,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   27,
+   239,
+   166,
+   30
+  ],
+  "train_attack": [
+   27,
+   195,
+   127,
+   5
+  ],
+  "val_sizes": [
+   8,
+   51,
+   31,
+   4
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 107,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   21,
+   13,
+   300,
+   128
+  ],
+  "train_attack": [
+   18,
+   12,
+   300,
+   24
+  ],
+  "val_sizes": [
+   0,
+   2,
+   66,
+   26
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 108,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   44,
+   336,
+   14,
+   68
+  ],
+  "train_attack": [
+   4,
+   270,
+   14,
+   66
+  ],
+  "val_sizes": [
+   12,
+   64,
+   8,
+   10
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 109,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   239,
+   49,
+   50,
+   124
+  ],
+  "train_attack": [
+   234,
+   28,
+   1,
+   91
+  ],
+  "val_sizes": [
+   48,
+   6,
+   14,
+   26
+  ],
+  "val_attack_total": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 110,
+  "attempts": 4,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   149,
+   42,
+   48,
+   223
+  ],
+  "train_attack": [
+   112,
+   12,
+   11,
+   219
+  ],
+  "val_sizes": [
+   24,
+   8,
+   13,
+   49
+  ],
+  "val_attack_total": 70
+ }
+]

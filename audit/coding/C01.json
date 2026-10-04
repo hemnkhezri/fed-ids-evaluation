@@ -1,0 +1,56 @@
+{
+ "id": "C01",
+ "citation": "Lazzarini R, Tianfield H, Charissis V. Federated learning for IoT intrusion detection. AI 4(3):509-530, 2023. doi:10.3390/ai4030028",
+ "url_read": "https://researchonline.gcu.ac.uk/ws/portalfiles/portal/77359126/77089336.pdf",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "Sec 4.2: \"at each client, the dataset was divided into train and test data using a 70:30 ratio\" - method (random/stratified/temporal) of the 70:30 split not stated."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "Sec 3.2: \"a shallow ANN with a dense input layer formed by 24 neurons, a dense hidden layer formed by 16 neurons\" - per-record input, no windows."
+  },
+  "A3": {
+   "code": "all_data",
+   "evidence": "Sec 4.2: MinMaxScaler normalization described first, then \"To conclude the pre-processing of the data, at each client, the dataset was divided into train and test data using a 70:30 ratio\"."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "Sec 3.1/Table 2: \"number of rounds set to 5 and epochs set to 5 for the first three rounds and then to 8 for the last two rounds\"."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "Sec 4-5: centralized ANN baseline's epochs/training budget not stated; no statement that it matches the FL budget."
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "\"Results from a traditional centralized approach, using the same ANN model on both datasets, are used as the baseline\"; no literature-number comparison table."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Sec 4.3: accuracy, precision, recall, F1-score (weighted average); no MCC/balanced accuracy."
+  },
+  "A8": {
+   "code": "no",
+   "evidence": "Sec 3.1: \"pre-divided into several parts randomly... The same distribution of classes in the labels was also maintained for all clients\" (IID)."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs, means or standard deviations stated in Secs 4-5."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "ToN_IoT and CICIDS2017 each trained and tested separately (same-dataset 70:30 test); no cross-dataset evaluation."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link; only Flower 1.0.0 framework named (Sec 3)."
+  }
+ },
+ "datasets": [
+  "ToN_IoT",
+  "CICIDS2017"
+ ],
+ "notes": "A3 coded all_data from the stated step order (normalization, then split as the concluding preprocessing step); the text does not say explicitly where the scaler was fitted, nor whether scaling was global or per client. FedAvg plus FedAvgM/FedAdam/FedAdagrad compared. Text read via web fetch extraction of the PDF."
+}

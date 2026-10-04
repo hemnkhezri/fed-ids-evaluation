@@ -1,0 +1,57 @@
+{
+  "id": "Q6-07",
+  "citation": "Sanjalawe Y, Al-E'mari S, Alqurashi T, Alharbi ZH, Makhadmeh SN, Alsharaiah M. Adaptive graph attention-based federated learning for IoT intrusion detection: mitigating poisoning attacks. PeerJ Computer Science 11:e3281, 2025. doi:10.7717/peerj-cs.3281",
+  "url_read": "https://peerj.com/articles/cs-3281/",
+  "unreadable": false,
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "No split method or proportions in 'Proposed methodology' / 'Experiments and results'; only 'identical configurations for dataset splits' (Measurement setup)."
+    },
+    "A2": {
+      "code": "unclear",
+      "evidence": "Data matrix 'Rows represent packet sequences or time intervals (e.g., 1-s window)'; Table 6 CNN-GRU input 'Input sequence of network flows', GRU 'Captures temporal dependencies'; split not described."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "Stage 1: 'mean (μ) and standard deviation (σ) required for Z-score normalization are computed independently using each client's private dataset'; whether test data are excluded is not stated."
+    },
+    "A4": {
+      "code": "neither",
+      "evidence": "Rounds, local epochs, batch size and learning rate not given anywhere (Tables 3-7 give hardware and layer specs only)."
+    },
+    "A5": {
+      "code": "same",
+      "evidence": "Measurement setup: 'all experiments were executed on the same hardware infrastructure ... using identical configurations for dataset splits, local training epochs, model sizes, and communication rounds.'"
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Table 12: FedAvg, FedGen, AdaptFL with bootstrap 95% CIs and 'p-values derived from paired t-tests against the AGAT-FL results'; Table 15 runtime per round for FedAvg etc. No statement that numbers were copied."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Metrics defined: Accuracy, Precision, Recall, F1-score (Tables 8-11); no MCC/balanced accuracy/G-mean."
+    },
+    "A8": {
+      "code": "unclear",
+      "evidence": "No client partition scheme given; only 'Local normalization also reflects the inherent non-IID nature of federated data distributions' (Stage 1)."
+    },
+    "A9": {
+      "code": "runs_with_dispersion_or_test",
+      "evidence": "'Statistical analysis and interpretation': 95% CIs 'estimated using bootstrap sampling (1,000 iterations), and p-values derived from paired t-tests' (Tables 12-13); ablation 'over five independent runs'."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "N-BaIoT and CIC-ToN-IoT evaluated separately (Tables 8-11); no cross-dataset test."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "Only Kaggle dataset links given; no code link in the visible text."
+    }
+  },
+  "datasets": [
+    "N-BaIoT",
+    "CIC-ToN-IoT"
+  ],
+  "notes": "Read the PeerJ HTML via the web-fetch tool. The fetched text was truncated in 'Discussion and limitations' (mid-sentence), so the Conclusion, Data Availability and Supplemental Information sections (where PeerJ normally lists code) were NOT visible; A11 'no' must be checked by the second coder. ResearchGate returned 429 and academia.edu gave the same truncated text. Borderline items: A5 'same' rests on the measurement-setup sentence (located in the overhead-analysis subsection but worded as 'all experiments'), and no round/epoch values are given. A6 'rerun' is not stated in words; it rests on the paired t-tests and CIs for baselines (Table 12) and the per-round baseline runtimes (Table 15). Table 8 cites baselines to papers that (per the tables) are mismatched (e.g. 'ScaleFL (McMahan et al., 2017)', 'FedAvg (Ilhan, Su & Liu, 2023)'). A9: number of runs behind the main-comparison t-tests is not stated. Table 4 CNN spec says 'Input: 32x32x3 (e.g., CIFAR-10)'."
+}

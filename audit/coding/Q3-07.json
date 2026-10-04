@@ -1,0 +1,56 @@
+{
+  "id": "Q3-07",
+  "citation": "Du J. A novel intrusion detection system for IIoT in 5G networks using attention-augmented federated learning and lightweight transformer architectures. Scientific Reports 16:23974, 2026. doi:10.1038/s41598-026-54748-x",
+  "url_read": "https://www.nature.com/articles/s41598-026-54748-x (HTML) and https://www.nature.com/articles/s41598-026-54748-x.pdf (tables)",
+  "items": {
+    "A1": {
+      "code": "random",
+      "evidence": "'The data is divided into about 70% for training, 15% for validation, and 15% for testing among scattered devices'; 'a 5-fold cross-validation technique was utilized in the training phase' (Simulation results)."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "Single record input: 'The resulting 1D feature vector is reshaped into a 2D tensor (e.g., a 24x24 grayscale-like image)' (Feature mapping and modality conversion); no sliding windows over records."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "'Numerical features are normalized to the interval [0, 1] employing Min-Max normalization' (Data cleaning and normalization); fit scope not stated (only KMeans-SMOTE stated 'exclusively on the training subset')."
+    },
+    "A4": {
+      "code": "both",
+      "evidence": "Table 4: 'Global rounds (T): 50'; 'Local epochs per device (E): 10'."
+    },
+    "A5": {
+      "code": "different_or_unstated",
+      "evidence": "Baselines MobileNetV3-SVM, LSTM, ViT, VGG-19 introduced with refs [37]-[40]; no statement that they used the same rounds/epochs."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "'The proposed model is evaluated against baseline methods, including MobileNetV3-SVM[37], LSTM[38], ViT[39], and VGG-19[40]'; Table 15 paired t-tests vs each baseline imply authors' own runs. Not explicitly stated."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Tables 5/7: Recall, Precision, F1-Score, MSE, RMSE, MAE; text also Accuracy and AUC; no MCC/balanced accuracy/G-mean."
+    },
+    "A8": {
+      "code": "yes",
+      "evidence": "'the pre-processed dataset is partitioned into non-IID subsets using a label-based skewed distribution'; alpha from 0.1 to 1.0 (Table 10)."
+    },
+    "A9": {
+      "code": "runs_with_dispersion_or_test",
+      "evidence": "'each experiment was repeated five times with varying random seeds ... mean values with their associated standard deviation (+- SD)'; Table 15 'Summary of statistical comparison (paired t-test)'."
+    },
+    "A10": {
+      "code": "yes",
+      "evidence": "Table 14 'Cross-dataset evaluation results': model 'trained exclusively on Edge-IIoTset and subsequently assessed on ToN-IoT without undergoing retraining'."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "Data availability: 'available from the corresponding author on reasonable request'; no code link."
+    }
+  },
+  "datasets": [
+    "Edge-IIoTset",
+    "ToN-IoT"
+  ],
+  "notes": "A1: 70/15/15 split method not stated; coded random because 5-fold CV is stated (guidance counts k-fold as random) - flag. A6 inferred from paired t-tests against baselines and baselines evaluated on both datasets; baselines appear centralized; no sentence says re-run or copied - flag for second coder. A10: ToN-IoT is also used to train separate models in the main experiments, but the Table 14 model was trained only on Edge-IIoTset. Table 5/7 baseline values carry no SD."
+}

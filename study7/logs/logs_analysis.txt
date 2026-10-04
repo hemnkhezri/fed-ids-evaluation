@@ -1,0 +1,8 @@
+# Study 7 results
+
+| Test | n | mean | 95% CI | positive | p (Holm) | per dataset |
+|---|---|---|---|---|---|---|
+| H7.1 MLP-FedAvg: MCC random minus temporal (1,000 steps) | 30 | +0.148 | [+0.059, +0.237] | 23 | 0.0002 | {'wustl': 0.2764227308464292, 'edgeiiot': 0.00800604524339793, 'xiiotid': 0.1594213768723266} |
+| H7.2 MLP-FedProx: MCC random minus temporal (1,000 steps) | 30 | +0.146 | [+0.064, +0.227] | 26 | 0.0002 | {'wustl': 0.2896697073398622, 'edgeiiot': 6.589414658899617e-05, 'xiiotid': 0.14935561469632452} |
+| H7.3 LR-FedAvg: MCC random minus temporal (1,000 steps) | 30 | +0.146 | [+0.017, +0.282] | 22 | 0.0093 | {'wustl': 0.14917221222714291, 'edgeiiot': 0.1836037758246874, 'xiiotid': 0.10654319283198746} |
+

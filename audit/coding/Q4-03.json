@@ -1,0 +1,56 @@
+{
+  "id": "Q4-03",
+  "citation": "Javeed D, Saeed MS, Adil M, Kumar P, Jolfaei A. A federated learning-based zero trust intrusion detection system for Internet of Things. Ad Hoc Networks 162:103540, 2024. doi:10.1016/j.adhoc.2024.103540",
+  "url_read": "https://researchnow-admin.flinders.edu.au/ws/portalfiles/portal/124783832/Javeed_Federated_P2024.pdf (published version, Flinders repository); ScienceDirect HTML truncated after Sect. 3",
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Sect. 3.1 step (6): 'Split the datasets into training and evaluation sets'; 'we further split them within each batch into training and evaluation sets'; method/ratio not stated (Table 2 gives counts only)."
+    },
+    "A2": {
+      "code": "unclear",
+      "evidence": "CNN-BiLSTM model (Tables 3-4: 'BiLSTM, 32 units, BiLSTM, 16 units'); how inputs/time steps are formed is not described."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "'Normalized the dataset features using unity-based normalization' (Sect. 3.1, min-max Eq.); fit scope not stated."
+    },
+    "A4": {
+      "code": "both",
+      "evidence": "Table 3 (FL models): 'Training rounds 10'; 'No. of epochs 100'."
+    },
+    "A5": {
+      "code": "different_or_unstated",
+      "evidence": "Table 4 centralized models 'No. of epochs 10' vs Table 3 FL models 'No. of epochs 100'."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Sect. 5.1: 'The centralized learning models - CNN, DNN, and CNN-BiLSTM' trained by the authors (Tables 5-6); FL DNN vs FL CNN-BiLSTM (Tables 7-8). No numbers from other papers."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Sect. 4.2 metrics: ACC, PRE, REC, AUC (Tables 7-8)."
+    },
+    "A8": {
+      "code": "unclear",
+      "evidence": "'we partitioned the datasets into multiple batches, each encompassing various classes' - IID or non-IID not stated."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "No repeated runs, seeds, SD or tests in Sects. 4-5."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "CICIDS2017 and Edge-IIoTset each trained and tested separately (Tables 5-8)."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "'Data will be made available on request'; no code link."
+    }
+  },
+  "datasets": [
+    "CICIDS2017",
+    "Edge-IIoTset"
+  ],
+  "notes": "Read via WebFetch (egress proxy blocks direct download). Only baselines are the authors' own centralized CNN/DNN/CNN-BiLSTM and FL DNN; Table 1 lists related work without numeric comparison. Number of clients varied N = 5, 10, 15, 20."
+}

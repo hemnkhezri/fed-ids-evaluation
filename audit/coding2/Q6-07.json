@@ -1,0 +1,56 @@
+{
+ "id": "Q6-07",
+ "citation": "Sanjalawe Y, Al-E'mari S, Alqurashi T, Alharbi ZH, Makhadmeh SN, Alsharaiah M (2025). Adaptive graph attention-based federated learning for IoT intrusion detection: mitigating poisoning attacks. PeerJ Computer Science.",
+ "url_read": "https://peerj.com/articles/cs-3281/ (HTML via WebFetch; PDF blocked); academia.edu copy for authors",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "No split percentages or method stated in Methods/Experimental setup; 'identical configurations for dataset splits' without specifying them."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "Traffic embeddings: 'Rows represent packet sequences or time intervals (e.g., 1-s window)'; split relative to windowing not stated."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "'Z-score normalization'; 'all normalization operations in AGAT-FL are performed locally on each client device' - training-only fit not stated."
+  },
+  "A4": {
+   "code": "neither",
+   "evidence": "'In each communication round t in {1,...,T}' - no numeric T or local epochs given; Tables 4-7 are architectures."
+  },
+  "A5": {
+   "code": "same",
+   "evidence": "'all experiments were executed on the same hardware infrastructure ... using identical configurations for dataset splits, local training epochs, model sizes, and communication rounds.'"
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "Baselines (FedRep, LGFedAvg, pFedLA, HeteroFL, FedGen, pFedHR, ScaleFL, FedAvg, AdaptFL) in Tables 8-11; 'all experiments' with identical configurations implies authors ran them."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Accuracy, Precision, Recall, F1-score only."
+  },
+  "A8": {
+   "code": "unclear",
+   "evidence": "'reflects the inherent non-IID nature of federated data distributions' - no partition method described."
+  },
+  "A9": {
+   "code": "runs_with_dispersion_or_test",
+   "evidence": "Table 12: '95% confidence intervals, estimated using bootstrap sampling (1,000 iterations), and p-values derived from paired t-tests'."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "N-BaIoT and CIC-ToN-IoT evaluated separately; no cross-dataset test."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "Only Kaggle dataset links; no code link in visible text."
+  }
+ },
+ "datasets": [
+  "N-BaIoT",
+  "CIC-ToN-IoT"
+ ],
+ "notes": "HTML text truncated at Limitations, so Declarations/Data Availability (PeerJ often lists supplemental code) not seen - A11 should be verified. A9: dispersion is bootstrap CI + paired t-test, not explicitly multiple training runs. A6 rerun inferred from the identical-configurations statement."
+}

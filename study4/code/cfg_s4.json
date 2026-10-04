@@ -1,0 +1,97 @@
+{
+ "C1": {
+  "family": "fedgtcl",
+  "mode": "twophase",
+  "pre": 0,
+  "lam": 0.1,
+  "contrastive": false,
+  "bias_corr": false,
+  "eta_s": 0.02,
+  "server": "adaptopt",
+  "s": 0.3
+ },
+ "C2": {
+  "family": "fedgtcl",
+  "mode": "twophase",
+  "pre": 0,
+  "lam": 0.1,
+  "contrastive": false,
+  "bias_corr": false,
+  "eta_s": 0.02,
+  "server": "adaptopt",
+  "s": 0.3,
+  "labelled_only": true
+ },
+ "C3": {
+  "family": "fedgtcl",
+  "mode": "twophase",
+  "pre": 0,
+  "lam": 0.1,
+  "contrastive": false,
+  "bias_corr": false,
+  "eta_s": 0.02,
+  "server": "fedavg",
+  "server_lr": 1.0,
+  "s": 0.0,
+  "labelled_only": true
+ },
+ "C4": {
+  "family": "fedgtcl",
+  "mode": "twophase",
+  "pre": 0,
+  "lam": 0.1,
+  "contrastive": false,
+  "bias_corr": false,
+  "eta_s": 0.02,
+  "server": "fedavg",
+  "server_lr": 1.0,
+  "s": 0.0,
+  "mu": 0.1,
+  "labelled_only": true
+ },
+ "FG": {
+  "family": "fedgtcl",
+  "mode": "twophase",
+  "pre": 5,
+  "lam": 0.1,
+  "server": "adaptopt",
+  "eta_s": 0.02,
+  "bias_corr": false,
+  "s": 0.3
+ },
+ "B1": {
+  "family": "gcngru",
+  "server": "fedavg",
+  "lr": 0.001,
+  "server_lr": 1.0
+ },
+ "B2": {
+  "family": "lstm",
+  "server": "fedavg",
+  "lr": 0.001,
+  "server_lr": 1.0
+ },
+ "B4": {
+  "family": "gcngru",
+  "server": "fedavg",
+  "lr": 0.001,
+  "server_lr": 1.0,
+  "mu": 0.1
+ },
+ "B5": {
+  "family": "gcngru",
+  "server": "fedavg",
+  "lr": 0.003,
+  "server_lr": 1.0,
+  "ssl": true,
+  "tau_conf": 0.9,
+  "lam_u": 1.0
+ },
+ "REF": {
+  "family": "gcngru",
+  "server": "fedavg",
+  "lr": 0.001,
+  "server_lr": 1.0,
+  "full_labels": true
+ }
+}

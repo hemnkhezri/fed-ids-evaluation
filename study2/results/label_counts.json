@@ -1,0 +1,67 @@
+{
+ "wustl": {
+  "train_seqs": 243,
+  "train_attack_mean": 56.0,
+  "labelled_attack_mean": 5.05,
+  "labelled_attack_range": [
+   4,
+   7
+  ],
+  "labelled_total_mean": 23.4,
+  "clients_with_labelled_attack_mean": 2.2,
+  "val_seqs": 160,
+  "val_attack": 47
+ },
+ "toniot": {
+  "train_seqs": 462,
+  "train_attack_mean": 354.0,
+  "labelled_attack_mean": 33.95,
+  "labelled_attack_range": [
+   30,
+   39
+  ],
+  "labelled_total_mean": 44.3,
+  "clients_with_labelled_attack_mean": 3.25,
+  "val_seqs": 94,
+  "val_attack": 70
+ },
+ "edgeiiot": {
+  "train_seqs": 466,
+  "train_attack_mean": 289.0,
+  "labelled_attack_mean": 28.4,
+  "labelled_attack_range": [
+   25,
+   32
+  ],
+  "labelled_total_mean": 45.6,
+  "clients_with_labelled_attack_mean": 3.2,
+  "val_seqs": 310,
+  "val_attack": 141
+ },
+ "cicapt": {
+  "train_seqs": 2583,
+  "train_attack_mean": 56.0,
+  "labelled_attack_mean": 5.75,
+  "labelled_attack_range": [
+   3,
+   11
+  ],
+  "labelled_total_mean": 256.6,
+  "clients_with_labelled_attack_mean": 2.2,
+  "val_seqs": 1722,
+  "val_attack": 31
+ },
+ "xiiotid": {
+  "train_seqs": 5496,
+  "train_attack_mean": 4485.0,
+  "labelled_attack_mean": 447.15,
+  "labelled_attack_range": [
+   434,
+   454
+  ],
+  "labelled_total_mean": 547.9,
+  "clients_with_labelled_attack_mean": 3.55,
+  "val_seqs": 3664,
+  "val_attack": 3394
+ }
+}

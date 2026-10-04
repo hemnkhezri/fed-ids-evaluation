@@ -1,0 +1,110 @@
+{
+"B5_lr0.001_t0.8_u0.5": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.001,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.8,
+"lam_u": 0.5
+},
+"B5_lr0.001_t0.8_u1.0": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.001,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.8,
+"lam_u": 1.0
+},
+"B5_lr0.001_t0.9_u0.5": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.001,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.9,
+"lam_u": 0.5
+},
+"B5_lr0.001_t0.9_u1.0": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.001,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.9,
+"lam_u": 1.0
+},
+"B5_lr0.001_t0.95_u0.5": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.001,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.95,
+"lam_u": 0.5
+},
+"B5_lr0.001_t0.95_u1.0": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.001,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.95,
+"lam_u": 1.0
+},
+"B5_lr0.003_t0.8_u0.5": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.003,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.8,
+"lam_u": 0.5
+},
+"B5_lr0.003_t0.8_u1.0": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.003,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.8,
+"lam_u": 1.0
+},
+"B5_lr0.003_t0.9_u0.5": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.003,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.9,
+"lam_u": 0.5
+},
+"B5_lr0.003_t0.9_u1.0": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.003,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.9,
+"lam_u": 1.0
+},
+"B5_lr0.003_t0.95_u0.5": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.003,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.95,
+"lam_u": 0.5
+},
+"B5_lr0.003_t0.95_u1.0": {
+"family": "gcngru",
+"server": "fedavg",
+"lr": 0.003,
+"server_lr": 1.0,
+"ssl": true,
+"tau_conf": 0.95,
+"lam_u": 1.0
+}
+}

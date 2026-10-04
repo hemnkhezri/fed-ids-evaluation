@@ -1,0 +1,65 @@
+{
+ "dataset": "edgeiiot",
+ "rows": 209640,
+ "features": 49,
+ "windows": 796,
+ "empty_windows": 0,
+ "window_attack": 442,
+ "sequences": 776,
+ "seq_attack": 430,
+ "noniid_attempts": 2,
+ "noniid_fallback": false,
+ "iid": {
+  "train": [
+   116,
+   115,
+   124,
+   111
+  ],
+  "train_attack": [
+   72,
+   76,
+   71,
+   70
+  ],
+  "val": [
+   78,
+   79,
+   70,
+   83
+  ],
+  "val_attack": [
+   39,
+   38,
+   28,
+   36
+  ]
+ },
+ "noniid": {
+  "train": [
+   24,
+   62,
+   301,
+   79
+  ],
+  "train_attack": [
+   0,
+   0,
+   287,
+   2
+  ],
+  "val": [
+   14,
+   63,
+   159,
+   74
+  ],
+  "val_attack": [
+   0,
+   0,
+   140,
+   1
+  ]
+ },
+ "sha256_pkl": "422b6eacd3be3805fba48642a89bec4062460784817be976d36cd53583228b1e"
+}

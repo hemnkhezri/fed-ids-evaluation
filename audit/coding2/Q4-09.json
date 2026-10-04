@@ -1,0 +1,55 @@
+{
+ "id": "Q4-09",
+ "citation": "Bukhari SMS, Zafar MH, Abou Houran M, Qadir Z, Moosavi SKR, Sanfilippo F (2024). Enhancing cybersecurity in Edge IIoT networks: An asynchronous federated learning approach with a deep hybrid detection model. Internet of Things 27:101252.",
+ "url_read": "https://www.sciencedirect.com/science/article/pii/S2542660524001938 (HTML via WebFetch; text visible through Fig. 16 caption; PDF mirrors blocked)",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "No train/test split stated in Proposed model, Dataset description or Results sections; only 'The dataset was distributed among ten different clients'."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "Hybrid Conv1D-LSTM-GRU (Table 2); no description of sequence/window construction or split."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "No normalization/encoding described in Dataset description or Results; only RF feature importance (Fig. 7) and '61 high-correlation features'."
+  },
+  "A4": {
+   "code": "neither",
+   "evidence": "Only 'By round 20, the model achieves near-optimal performance' (Round-wise metrics); total rounds and local epochs not stated; Table 2 has no epochs."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "No statement of training settings for CNN, isolated LSTM, shallow ANN."
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "Fig. 10 'Confusion matrix of the competing techniques'; Figs. 12-15 ROC curves for CNN, isolated LSTM, shallow ANN produced by authors."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Metrics section: accuracy, precision, recall, F1-score, ROC-AUC."
+  },
+  "A8": {
+   "code": "unclear",
+   "evidence": "'The dataset was distributed among ten different clients' - partition method not described."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs, standard deviations or tests reported."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Only Edge-IIoTset used."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link in visible text."
+  }
+ },
+ "datasets": [
+  "Edge-IIoTset"
+ ],
+ "notes": "Full PDF not downloadable (proxy blocked sciencedirect/naturalhazards/westernsydney); HTML body read via WebFetch, which truncated after Fig. 16 caption, so conclusion/back matter (code/data statements) not seen - A11 should be verified. Classification report support 443,700 instances suggests ~20% test split but not stated."
+}

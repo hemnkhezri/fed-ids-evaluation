@@ -1,0 +1,55 @@
+{
+  "id": "C08",
+  "citation": "Mhawish et al. A novel adaptive generalization-guided federated learning for multimodal IIoT intrusion detection under statistical heterogeneity. IEEE Open Journal of the Computer Society, 2026 (as cited).",
+  "url_read": "local author version, DOI 10.1109/OJCS.2026.3703977",
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Sec. III.A-F and IV: no train/test split for the in-distribution results (Table 6) is stated; Algorithm 4 only names client Dm_tr/Dm_val; zero-day protocol holds out attack classes (Sec. III.F, Table 5)."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "Sec. III.D: per-record input 'xi = [xi_net || xi_sys]' to fully connected encoders; no windows or sequences."
+    },
+    "A3": {
+      "code": "all_data",
+      "evidence": "Sec. III.B / Algorithm 1: Z-score 'µj ← Mean(D[fj]); σj ← Std(D[fj])' and OneHotEncode(D) computed on the full dataset D before partitioning (Sec. III.C: 'the preprocessed dataset D̃ is partitioned across M logical clients')."
+    },
+    "A4": {
+      "code": "one",
+      "evidence": "Rounds T stated (Table 5: T = 200 or 100); local epochs E appear only as a symbol in Algorithm 4 ('rounds T; local epochs E'), no value given."
+    },
+    "A5": {
+      "code": "different_or_unstated",
+      "evidence": "Sec. III.E: six configurations 'varying client count, heterogeneity level, training rounds, and aggregation strategy'; no statement that FedAvg/FedProx/Centralized used the same rounds/epochs."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Table 6: Centralized, FedAvg, FedProx results per Exp1-Exp6 from authors' experiments; Table 11 related-work 'Findings' is a qualitative literature table, not a baseline comparison."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Sec. IV: 'using Accuracy, Precision, Recall, Macro-F1, AUC, CATS, and robustness ratio R'; no MCC/balanced accuracy/G-mean."
+    },
+    "A8": {
+      "code": "yes",
+      "evidence": "Sec. III.C / Table 2: Dirichlet label allocation 'pm ∼ Dir(α)', α ∈ {1.0, 0.5, 0.1} with 5/10/20 clients."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "Detection results (Tables 6-9) are single values without dispersion; only convergence/timing (Fig. 7, Table 10) 'reported as mean ± standard deviation over five independent runs.'"
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "Zero-day protocol (Sec. III.F) holds out attack classes of the same TON_IoT dataset ('Atest = A \\ Atrain'); no other dataset or capture used."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "No code link in the paper."
+    }
+  },
+  "datasets": [
+    "TON_IoT (multimodal: network + system telemetry)"
+  ],
+  "notes": "Screening.json currently lists C08 as EXCLUDED (criterion 4, no full text found); the local author version now makes it readable, so the screening decision needs updating by the lead auditor. Meets criteria 1-3 on reading (FL IDS for IIoT, public TON_IoT, FedAvg/FedProx/Centralized baselines). Page header reads 'Digital Object Identifier 10.1109/ACCESS.2024.0429000' (template artifact); citation DOI from task. A9 borderline: five runs with SD reported, but only for convergence rounds/time, not for detection metrics; coded single_or_not_reported for detection results — flag for adjudication. Table 10 caption duplicates Table 8 (per-class) content, an editing error in the author version."
+}

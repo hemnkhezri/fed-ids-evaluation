@@ -1,0 +1,57 @@
+{
+ "id": "Q2-07",
+ "citation": "Hossain et al. 2025, Complex & Intelligent Systems (s40747-025-02001-9)",
+ "url_read": "https://link.springer.com/article/10.1007/s40747-025-02001-9 (HTML full text via WebFetch)",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "Experimental setup: 'we employed a 70% training and 30% testing split in all experiments' - random/stratified/temporal not stated (no 'random', 'shuffle', 'stratif', 'train_test_split')."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "Random Forest on tabular features: 'Each tree in the Random Forest is trained on a bootstrapped subset of X_k^(top)'; no windows."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "'standardize all numerical columns using the StandardScaler'; LabelEncoder for categoricals; fit scope not stated."
+  },
+  "A4": {
+   "code": "neither",
+   "evidence": "No rounds or epochs stated (no 'round'/'epoch'/'iteration'); only 'T (Number of Trees) as 10'. Aggregation is one-shot SHAP importance averaging."
+  },
+  "A5": {
+   "code": "copied",
+   "evidence": "Table 8 'comparative analysis ... with various existing centralized and federated learning models' uses literature numbers."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "Table 8 prior works (DNN, SGC, CNN-LSTM, FDL ...) quoted from literature; own centralized RF (Table 4) is the only re-run baseline."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Accuracy, precision, recall, F1-score, confusion matrices only."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "'Each client is assigned data specific to particular botnet types ... ensuring that the clients' datasets are non-IID' (Settings 1-3, Fig. 3)."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No multiple runs, std or statistical tests; 'metrics are averaged across clients in each setting'."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Setting 3 mixes MedBIoT, N-BaIoT, NCC2 across clients but no model evaluated on a dataset unused in its training."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "Availability: 'All data and materials used in this study are fully described and referenced in the dataset preparation section'; no code link."
+  }
+ },
+ "datasets": [
+  "MedBIoT",
+  "N-BaIoT",
+  "NCC2"
+ ],
+ "notes": "A1: ratio split without stated method; could be random if read liberally - coded not_reported per 'code what is stated'. Framework is SHAP-based feature-importance federation with local RF, not parameter averaging."
+}

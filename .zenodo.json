@@ -1,0 +1,12 @@
+{
+  "title": "Evaluation Choices Decide the Winner: code, sealed plans and results",
+  "upload_type": "software",
+  "description": "Code, sealed analysis plans (SHA-256), partitions and all run-level results for the paper 'Evaluation Choices Decide the Winner: A Pre-Registered Re-Evaluation of Federated Intrusion Detection for Industrial IoT', including the literature audit of 24 federated IDS studies.",
+  "creators": [
+    {"name": "Khezri, Hemn", "affiliation": "Department of Computer Engineering, Afagh Higher Education Institute, Urmia, Iran"},
+    {"name": "Trik, Mohammad", "affiliation": "Department of Computer Engineering, Boukan Branch, Islamic Azad University, Boukan, Iran"}
+  ],
+  "license": "MIT",
+  "keywords": ["federated learning", "intrusion detection", "Industrial Internet of Things", "evaluation methodology", "data leakage", "pre-registration"],
+  "access_right": "open"
+}

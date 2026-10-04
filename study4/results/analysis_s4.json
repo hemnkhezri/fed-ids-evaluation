@@ -1,0 +1,209 @@
+{
+ "selected": "C4",
+ "selection": {
+  "selected": "C4",
+  "scores": {
+   "C1": 0.6776845085124534,
+   "C2": 0.6493705791560646,
+   "C3": 0.625354754496233,
+   "C4": 0.7021771086965223
+  },
+  "degenerate": {
+   "C2": 13,
+   "C3": 19,
+   "C4": 11,
+   "C1": 10
+  },
+  "rule": "highest mean MCC over 60 units; ties at 3 decimals go to the earlier candidate in the order C1, C2, C3, C4"
+ },
+ "internal": {
+  "confirmatory": [
+   {
+    "p_label": 0.1,
+    "comparator": "B4",
+    "n": 30,
+    "mean_diff": 0.08639522049034938,
+    "median_diff": 0.04488194913869381,
+    "ci95": [
+     0.0385710079283272,
+     0.13522048302356085
+    ],
+    "wins": 22,
+    "p_sup": 0.001536986009140104,
+    "p_ni": 2.6522866597082215e-05,
+    "p_sup_holm": 0.003073972018280208,
+    "superior": true,
+    "inferior": false,
+    "p_ni_holm": 5.304573319416443e-05,
+    "noninferior": true
+   },
+   {
+    "p_label": 0.1,
+    "comparator": "B5",
+    "n": 30,
+    "mean_diff": 0.3411047024900787,
+    "median_diff": 0.38936045559137566,
+    "ci95": [
+     0.25168405382739056,
+     0.42698481256912063
+    ],
+    "wins": 26,
+    "p_sup": 1.0224259522876155e-05,
+    "p_ni": 1.5870362706472376e-06,
+    "p_sup_holm": 4.089703809150462e-05,
+    "superior": true,
+    "inferior": false,
+    "p_ni_holm": 6.348145082588951e-06,
+    "noninferior": true
+   },
+   {
+    "p_label": 0.5,
+    "comparator": "B4",
+    "n": 30,
+    "mean_diff": 0.0599294143655272,
+    "median_diff": 0.0,
+    "ci95": [
+     0.011845940211639233,
+     0.11595154791294697
+    ],
+    "wins": 14,
+    "p_sup": 0.23682458247086613,
+    "p_ni": 3.742032809686852e-05,
+    "p_sup_holm": 0.23682458247086613,
+    "superior": false,
+    "inferior": false,
+    "p_ni_holm": 5.304573319416443e-05,
+    "noninferior": true
+   },
+   {
+    "p_label": 0.5,
+    "comparator": "B5",
+    "n": 30,
+    "mean_diff": 0.1495247741389876,
+    "median_diff": 0.013341401265719255,
+    "ci95": [
+     0.07285386908505875,
+     0.23473230456210822
+    ],
+    "wins": 20,
+    "p_sup": 0.00046534403532926216,
+    "p_ni": 5.024545912031418e-06,
+    "p_sup_holm": 0.0013960321059877864,
+    "superior": true,
+    "inferior": false,
+    "p_ni_holm": 1.5073637736094252e-05,
+    "noninferior": true
+   }
+  ],
+  "outcome": "A",
+  "decision": "superior in: p_L=0.1 vs FedProx, p_L=0.1 vs Pseudo-label, p_L=0.5 vs Pseudo-label"
+ },
+ "external": {
+  "confirmatory": [
+   {
+    "p_label": 0.1,
+    "comparator": "B4",
+    "n": 10,
+    "mean_diff": -0.1381526180143841,
+    "median_diff": -0.1446456570801563,
+    "ci95": [
+     -0.20354756413761954,
+     -0.06683193870077422
+    ],
+    "wins": 2,
+    "p_sup": 0.009765625,
+    "p_ni": 0.986328125,
+    "p_sup_holm": 0.01953125,
+    "superior": false,
+    "inferior": true,
+    "p_ni_holm": 1.0,
+    "noninferior": false
+   },
+   {
+    "p_label": 0.1,
+    "comparator": "B5",
+    "n": 10,
+    "mean_diff": -0.0827416776682183,
+    "median_diff": -0.07909050982532749,
+    "ci95": [
+     -0.17582613216446386,
+     -0.005058565803617766
+    ],
+    "wins": 3,
+    "p_sup": 0.10546875,
+    "p_ni": 0.75390625,
+    "p_sup_holm": 0.10546875,
+    "superior": false,
+    "inferior": false,
+    "p_ni_holm": 1.0,
+    "noninferior": false
+   },
+   {
+    "p_label": 0.5,
+    "comparator": "B4",
+    "n": 10,
+    "mean_diff": -0.17474383458821946,
+    "median_diff": -0.19475922135378826,
+    "ci95": [
+     -0.24214809753046854,
+     -0.1097823279277204
+    ],
+    "wins": 1,
+    "p_sup": 0.00390625,
+    "p_ni": 0.9951171875,
+    "p_sup_holm": 0.015625,
+    "superior": false,
+    "inferior": true,
+    "p_ni_holm": 1.0,
+    "noninferior": false
+   },
+   {
+    "p_label": 0.5,
+    "comparator": "B5",
+    "n": 10,
+    "mean_diff": -0.291054245766601,
+    "median_diff": -0.30478008519215255,
+    "ci95": [
+     -0.36241385644099633,
+     -0.20750236183588555
+    ],
+    "wins": 1,
+    "p_sup": 0.00390625,
+    "p_ni": 0.9990234375,
+    "p_sup_holm": 0.015625,
+    "superior": false,
+    "inferior": true,
+    "p_ni_holm": 1.0,
+    "noninferior": false
+   }
+  ],
+  "outcome": "C",
+  "decision": "neither superior nor non-inferior"
+ },
+ "gate": {
+  "passed": true,
+  "mean_MCC": 0.7038917650452547,
+  "runs": [
+   0.7971198262814749,
+   0.4503852988768829,
+   0.8641701699774064
+  ],
+  "threshold": 0.3
+ },
+ "eligibility": {
+  "eligible": true,
+  "criteria": {
+   "C1 training attack sequences >= 500 in every partition": true,
+   "C2 training benign sequences >= 500 in every partition": true,
+   "C3 validation attack sequences >= 30": true,
+   "C4 validation benign sequences >= 30": true
+  },
+  "windows": 85348,
+  "sequences": 85304,
+  "train_attack_min": 21746,
+  "train_benign_min": 20908,
+  "val_attack": 21308,
+  "val_benign": 21342,
+  "base_sha256": "561468eee88145efdbc6183d307a408d77093184eed0e1993569c6cb00aad94d"
+ }
+}

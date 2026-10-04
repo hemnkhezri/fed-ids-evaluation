@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper and this archive."
+title: "Evaluation Choices Decide the Winner: code, sealed plans and results"
+type: software
+authors:
+  - family-names: Khezri
+    given-names: Hemn
+    affiliation: "Department of Computer Engineering, Afagh Higher Education Institute, Urmia, Iran"
+  - family-names: Trik
+    given-names: Mohammad
+    affiliation: "Department of Computer Engineering, Boukan Branch, Islamic Azad University, Boukan, Iran"
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-04"
+keywords:
+  - federated learning
+  - intrusion detection
+  - Industrial Internet of Things
+  - evaluation methodology
+  - pre-registration
+preferred-citation:
+  type: article
+  title: "Evaluation Choices Decide the Winner: A Pre-Registered Re-Evaluation of Federated Intrusion Detection for Industrial IoT"
+  authors:
+    - family-names: Khezri
+      given-names: Hemn
+    - family-names: Trik
+      given-names: Mohammad
+  year: 2026
+  notes: "Under review"

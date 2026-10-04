@@ -1,0 +1,57 @@
+{
+  "id": "Q1-08",
+  "citation": "Khraisat A, Alazab A, Alazab M, Obeidat A, Singh S, Jan T. Federated learning for intrusion detection in IoT environments: a privacy-preserving strategy. Discover Internet of Things 5:72, 2025. doi:10.1007/s43926-025-00169-7",
+  "url_read": "https://link.springer.com/article/10.1007/s43926-025-00169-7",
+  "unreadable": false,
+  "rescreened": true,
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Sec. 5: 'The preprocessed data was divided into 70% for training and 30% for testing.' Method (random/stratified/temporal) not stated."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "Sec. 5: 'Each traffic record is represented by 115 statistical features'; model consumes single records, no windows/sequences built by the authors."
+    },
+    "A3": {
+      "code": "all_data",
+      "evidence": "Sec. 5: 'Prior to model training, the dataset underwent ... Min-Max normalization ... The preprocessed data was divided into 70% for training and 30% for testing.' (normalization before split)."
+    },
+    "A4": {
+      "code": "one",
+      "evidence": "Sec. 6: accuracy 'across 30 communication rounds'; E (local epochs) and B defined only as symbols, no values."
+    },
+    "A5": {
+      "code": "copied",
+      "evidence": "Sec. 6 / Table 2: 'A comparative evaluation of PEIoT-DS against existing intrusion detection solutions' (DÏoT, CE-FedAvg, Blockchain-IDS, RDTIDS); no re-implementation described. FedAvg vs FedAvgM both over 30 rounds (Figs. 3-4)."
+    },
+    "A6": {
+      "code": "copied",
+      "evidence": "Table 2 compares against named existing systems (DÏoT, CE-FedAvg, Blockchain-IDS, RDTIDS) with no implementation described; only FedAvg (Fig. 3, Table 3) is run by the authors."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Accuracy, false positive rate, rounds to 90% accuracy, testing time, payload (Sec. 6, Tables 2-3, Figs. 3-4); no precision/recall/F1/MCC."
+    },
+    "A8": {
+      "code": "no",
+      "evidence": "Sec. 5: 'partitioned in a non-identically distributed (non-IID) fashion among the nine simulated IoT clients, with each client receiving device-specific data' = natural per-device split."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "Single values (e.g. FedAvgM '95.05% compared to 94.05%'); no runs, SD, CI or tests reported."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "Only N-BaIoT used (Sec. 5)."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "Data availability: 'available from the corresponding author on reasonable request'; no code link."
+    }
+  },
+  "datasets": [
+    "N-BaIoT"
+  ],
+  "notes": "RESCREEN: Springer HTML full text was readable this session. Meets criteria 1-3: journal article 2025; FL IDS for IoT on network traffic (N-BaIoT, 115 flow features, nine device clients); public dataset; baselines FedAvg (run by the authors) and existing IDS approaches (Table 2). Authors (Khraisat, Alazab, Alazab, Obeidat, Singh, Jan) do not include Khezri or Trik. Limits: Table 2 and Table 3 cell values could not be seen (Springer table pages blocked by robots.txt; the PDF was rate-limited, HTTP 429). A5/A6 'copied' rests on Table 2 comparing against named external systems with no implementation described; the second coder should check Table 2 in the PDF to confirm the numbers come from the cited papers. A8: the paper calls its partition non-IID, but it is the natural per-device split of N-BaIoT, so it is coded 'no' under the protocol ('IID or natural split only'). A3: coded all_data from the stated order (normalize, then split); the paper does not use the words 'fitted on'. N-BaIoT features are window statistics computed by the dataset authors, not by this paper's model (A2)."
+}

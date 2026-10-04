@@ -1,0 +1,56 @@
+{
+  "id": "C18",
+  "citation": "Al Tfaily F, Ghalmane Z, Brahmia MA, Hazimeh H, Jaber A, Zghal M. Graph-based federated learning approach for intrusion detection in IoT networks. Scientific Reports 15:41264, 2025. doi:10.1038/s41598-025-25175-1",
+  "url_read": "https://www.nature.com/articles/s41598-025-25175-1 (read via web text extraction; cross-checked with PDF copy https://d-nb.info/1387602233/34)",
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Results > Experimental setup: 'The dataset was partitioned across five simulated clients...'; no train/test split stated in Methods or Experimental setup."
+    },
+    "A2": {
+      "code": "unclear",
+      "evidence": "Temporal GAT analyzes 'timing patterns, traffic bursts, and connection sequences' (Methods); how graphs/windows are built from flows and how data are split is not stated."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "No scaling/encoding procedure stated in Methods (Client-side processing) or Experimental setup."
+    },
+    "A4": {
+      "code": "neither",
+      "evidence": "Only relative statement: 'requires 25-30% fewer federation rounds'; no number of rounds or local epochs given (Experimental setup lists hidden dims, heads, dropout only)."
+    },
+    "A5": {
+      "code": "different_or_unstated",
+      "evidence": "Experimental setup: 'Evaluation included centralized GAT, GraphSAGE, FedLSTM, a basic federated GNN, and a FedGATSage variant' — no statement on shared rounds/epochs."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Table 1: 'Comparison of performance metrics across centralized and federated approaches for NF-ToN-IoT and CIC-ToN-IoT' — authors' own baselines; published numbers cited only in Discussion, not as baselines."
+    },
+    "A7": {
+      "code": "yes",
+      "evidence": "'Metrics included accuracy, balanced accuracy, macro F1 score'; 'FedGATSage achieved 78.58% balanced accuracy on the NF-ToN-IoT dataset'."
+    },
+    "A8": {
+      "code": "unclear",
+      "evidence": "Experimental setup: 'partitioned across five simulated clients with balanced attack distributions and network heterogeneity. Client sizes varied by up to 40% and class prevalence varied by 25%' — partition method not specified."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "No repeated runs, seeds, dispersion or statistical tests stated (Results, Experimental setup)."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "NF-ToN-IoT and CIC-ToN-IoT evaluated separately; no cross-dataset evaluation."
+    },
+    "A11": {
+      "code": "yes",
+      "evidence": "Code availability: 'Source code is available at: https://github.com/Fouad-AlTfaily/Fed_GNN.git' (repository exists with src/, experiments/, preprocess_data.py)."
+    }
+  },
+  "datasets": [
+    "NF-ToN-IoT",
+    "CIC-ToN-IoT"
+  ],
+  "notes": "Methods lack most experimental details (split, preprocessing, rounds, epochs). A8 coded unclear because the text simultaneously says 'balanced attack distributions' and reports 25% class-prevalence variation without describing the partitioning; flag for second coder. The code repository might document split/preprocessing, but coding is from the paper text only."
+}

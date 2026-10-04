@@ -1,0 +1,53 @@
+{
+ "id": "Q1-07",
+ "citation": "Rashid et al. 2023, Network (MDPI) 3(1), 158-179, doi:10.3390/network3010008",
+ "url_read": "NOT READ - mdpi.com/doi.org rate-limited (HTTP 429, told not to retry); researchgate 429; academia.edu URL rejected by fetch tool; direct download blocked by egress proxy (403).",
+ "items": {
+  "A1": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A2": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A3": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A4": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A5": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A6": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A7": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A8": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A9": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A10": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  },
+  "A11": {
+   "code": null,
+   "evidence": "full text not accessible to second coder"
+  }
+ },
+ "datasets": [],
+ "notes": "Not coded: full text could not be opened in this session. Needs re-attempt (or supply local PDF) before reliability computation."
+}

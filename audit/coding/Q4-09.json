@@ -1,0 +1,56 @@
+{
+  "id": "Q4-09",
+  "citation": "Bukhari SMS, Zafar MH, Abou Houran M, Qadir Z, Moosavi SKR, Sanfilippo F. Enhancing cybersecurity in Edge IIoT networks: An asynchronous federated learning approach with a deep hybrid detection model. Internet of Things 27:101252, 2024. doi:10.1016/j.iot.2024.101252",
+  "url_read": "https://www.sciencedirect.com/science/article/pii/S2542660524001938",
+  "unreadable": false,
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "No train/test split method or percentages stated in Secs. 4-5; Sec. 5.2 only says testing used 'a substantial dataset of 443,700 instances'."
+    },
+    "A2": {
+      "code": "unclear",
+      "evidence": "Sec. 3.5: 'LSTM unit, which excels in processing sequential data'; no window, sequence length or input shape given (Secs. 3-5, Table 2), and split not described."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "Sec. 4 only: '1176 features, distilled down to 61 high-correlation features'; no scaling/encoding or fit scope stated in Secs. 3-5."
+    },
+    "A4": {
+      "code": "neither",
+      "evidence": "Table 2 lists architecture/optimizer only; Sec. 3.4 gives lr decay 'η(t) = η0/(1 + δt)' without values; Sec. 5.2.4 'By round 20, the model achieves near-optimal performance' (no total rounds, no local epochs)."
+    },
+    "A5": {
+      "code": "different_or_unstated",
+      "evidence": "CNN, isolated LSTM and Shallow ANN compared via ROC curves (Sec. 5.2.3, Figs. 12-15); no statement of their training rounds/epochs or whether they were federated."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Sec. 5.2.3: ROC curves on the Edge-IIoTset for 'CNN Model' (Fig. 12), 'Isolated LSTM' (Fig. 13), 'Shallow ANN' (Fig. 15), i.e. produced by the authors; no numbers quoted from other papers."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Sec. 5.1, Eqs. 16-20: Accuracy, Precision, Recall, F1-Score; plus ROC-AUC (Sec. 5.2.3). No MCC/balanced accuracy/G-mean."
+    },
+    "A8": {
+      "code": "unclear",
+      "evidence": "Sec. 5: 'The dataset was distributed among ten different clients, mimicking a realistic IIoT network scenario'; partition scheme not described."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "Single values reported (e.g. precision/recall/F1 of 1.00, Table 4); no repeated runs, SD, CI or tests in Secs. 5.1-5.2.4."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "Only Edge-IIoTset used (Sec. 4)."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "No code link in the visible text (Secs. 1-5.2.4)."
+    }
+  },
+  "datasets": [
+    "Edge-IIoTset"
+  ],
+  "notes": "Read via the web-fetch tool (shell egress to sciencedirect.com blocked by proxy policy). The fetched text was truncated inside Sec. 5.2.4 (Fig. 16 description): any later results subsection, the Conclusion, Data availability and CRediT sections were NOT visible, so A11 (and possibly A6/A9) should be checked by the second coder against the PDF. Algorithm 1 is an image and could not be read (it may contain local epochs). A6 coded rerun because the baseline ROC curves are the authors' own figures; the paper does not say whether the baselines were trained federated or centralised. Table 1 ('Comparison of previous studies') is a related-work table, not a results comparison."
+}

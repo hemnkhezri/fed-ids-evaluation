@@ -1,0 +1,56 @@
+{
+ "id": "Q2-10",
+ "citation": "Albanbay N, Tursynbek Y, Graffi K, Uskenbayeva R, Kalpeyeva Z, Abilkaiyr Z, Ayapov Y. Federated learning-based intrusion detection in IoT networks: performance evaluation and data scaling study. Journal of Sensor and Actuator Networks 14(4):78, 2025. doi:10.3390/jsan14040078",
+ "url_read": "https://www.mdpi.com/2224-2708/14/4/78",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "Only 'computed globally on the aggregated test set after the final communication round'; no train/test split procedure stated."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "'All models accept a 39-dimensional normalized input vector' (incl. CNN+BiLSTM); no windows."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "'min-max scaling was applied to all features, mapping values to the [0, 1] range'; fit scope not stated."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "'trained for 20 communication rounds' with '10 local epochs per round'."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "Centralized: 'conducted with the full dataset over 10 epochs' vs FL 20 rounds x 10 local epochs."
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "'Each model was additionally trained using a centralized approach' by the authors; no copied prior-work table."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "'accuracy, precision, recall, and F1-score' (plus macro variants, confusion matrices)."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "'Each client received a distinct combination of benign and malicious traffic, deliberately varying in attack types and their relative proportions.'"
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No seeds, repeated runs, std or tests; each configuration 'treated as an independent experiment, initialized from scratch'."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Only CICIoT2023 used."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link found."
+  }
+ },
+ "datasets": [
+  "CICIoT2023"
+ ],
+ "notes": "Baselines are the authors' centralized versions of the same DNN/CNN/CNN+BiLSTM models.",
+ "unreadable": false
+}

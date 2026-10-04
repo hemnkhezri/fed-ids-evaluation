@@ -1,0 +1,23 @@
+UNSW-NB15_1.csv sha256 7d851bbeabd27894ce39c8e78835c73341fc946652fb7743b9eff193b55eb511
+UNSW-NB15_2.csv sha256 6130ad02873cc6069ae695cf2844f2e8c2e9a9a1b7532dd82ab8f202757cacf8
+UNSW-NB15_3.csv sha256 ae990a96c3dfcd425ce2801aadb1727a34d5e0ae6d8215dbcdae60dedfaef640
+UNSW-NB15_4.csv sha256 cdf563692d51d405541dd659ddcdad9fa01f001f05fe9fc4b67f00ca12fbc96a
+features 38 ['proto', 'state', 'dur', 'sbytes', 'dbytes', 'sloss', 'dloss', 'service', 'Sload', 'Dload', 'Spkts', 'Dpkts', 'swin', 'dwin', 'stcpb', 'dtcpb', 'smeansz', 'dmeansz', 'trans_depth', 'res_bdy_len', 'Sjit', 'Djit', 'Sintpkt', 'Dintpkt', 'tcprtt', 'synack', 'ackdat', 'is_sm_ips_ports', 'ct_flw_http_mthd', 'is_ftp_login', 'ct_ftp_cmd', 'ct_srv_src', 'ct_srv_dst', 'ct_dst_ltm', 'ct_src_ltm', 'ct_src_dport_ltm', 'ct_dst_sport_ltm', 'ct_dst_src_ltm']
+pass1 12s
+windows 85348 attack windows 43070 sessions 2
+  block 1 (train): 8535 windows, attack 76.0%
+  block 2 (val): 8535 windows, attack 0.0%
+  block 3 (train): 8534 windows, attack 0.0%
+  block 4 (val): 8535 windows, attack 0.0%
+  block 5 (train): 8535 windows, attack 0.0%
+  block 6 (val): 8535 windows, attack 71.2%
+  block 7 (train): 8535 windows, attack 90.1%
+  block 8 (val): 8534 windows, attack 89.6%
+  block 9 (train): 8535 windows, attack 88.7%
+  block 10 (val): 8535 windows, attack 88.9%
+pass2 25s
+pass3 51s
+empty windows after host capping: 0
+median hosts per window: 17
+sha256 3ef75fc681c842b438a219363ccbde39beeafe1b45de1555dc9e6624da77564a
+done in 73s

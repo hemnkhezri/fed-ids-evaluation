@@ -1,0 +1,55 @@
+{
+ "id": "C03",
+ "citation": "Karunamurthy A, Vijayan K, Kshirsagar PR, Tan KT. An optimal federated learning-based intrusion detection for IoT environment. Scientific Reports 15:8696, 2025. doi:10.1038/s41598-025-93501-8",
+ "url_read": "https://www.nature.com/articles/s41598-025-93501-8",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "\"Before training and testing the dataset is balanced and in the balanced data 70% of the data are used for training and 30% is used for testing\" - split method not stated."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "CNN \"learns temporal information in the feature sets\", Table 2 3x3 kernels; input construction (windows or single records) not described."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "No scaling/normalization/encoding procedure described in Methods or Results."
+  },
+  "A4": {
+   "code": "neither",
+   "evidence": "Only \"After training the learning model for several epochs, the classification model will be sent to server for FL aggregation\"; no rounds or epochs in Table 2."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "Table 2 lists baseline hyperparameters; no statement of equal training budget."
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "Table 2 gives hyperparameters for NN, RF, NB, DT, GB, MLP and Figs 4-9 show their confusion matrices; no literature numbers quoted."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "\"recall, precision, f1-score and accuracy\" (Tables 3-10, Figs 11-12); no MCC/balanced accuracy."
+  },
+  "A8": {
+   "code": "unclear",
+   "evidence": "Number of clients and partition of the MQTT dataset across IoT instances not described."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs or dispersion reported."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Only the MQTT dataset (70/30 split) used."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "Only \"Data is provided within the manuscript\"; no code link."
+  }
+ },
+ "datasets": [
+  "MQTT-IoT-IDS (Kaggle MQTT dataset)"
+ ],
+ "notes": "Balancing applied before the 70/30 split (quoted in A1), which is itself a leakage risk not covered by A3. Chimp Optimization Algorithm feature selection (17 of 34 features); whether it used test data not stated. Table 2 read from the article PDF (nature.com/...pdf)."
+}

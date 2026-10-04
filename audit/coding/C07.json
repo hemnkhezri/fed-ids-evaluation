@@ -1,0 +1,56 @@
+{
+  "id": "C07",
+  "citation": "Bhavsar M, Bekele Y, Roy K, Kelly J, Limbrick D. FL-IDS: Federated learning-based intrusion detection system using edge devices for transportation IoT. IEEE Access 12, 2024. doi:10.1109/ACCESS.2024.3386631",
+  "url_read": "https://www.academia.edu/122657176/FL_IDS_Federated_Learning_Based_Intrusion_Detection_System_Using_Edge_Devices_for_Transportation_IoT (published IEEE Access version, author upload; read via web text extraction)",
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Sec. IV.A: 'The NSL-KDD dataset consists of two .csv files named KDD_Train and KDD_Test file' (Table 3 lists NSL_Train/NSL_Test counts), but no statement of how train/test were used; Car-Hacking split not stated."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "PCC-CNN (Sec. III.B) uses Conv1D over the feature vector; no windows, time steps or sequences of consecutive records/CAN frames described."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "No normalization/encoding described; Sec. III only: 'the utils file is used for data massaging and distributing the data across the local clients.' Not stated in Sec. III-IV."
+    },
+    "A4": {
+      "code": "one",
+      "evidence": "Local epochs stated (Sec. IV.C: 'The model was trained for 3 epochs with the NSL-KDD dataset and 3 epochs with the Car-Hacking dataset'); number of FL rounds not stated ('repeated iteratively until the model converges')."
+    },
+    "A5": {
+      "code": "different_or_unstated",
+      "evidence": "Tables 5-6 compare Centralized vs Federated accuracy; no statement that centralized models used the same epochs/budget (Sec. III-IV)."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Tables 5-6: centralized and federated LR and PCC-CNN results from authors' own Testbed 1/2 experiments; no numbers copied from other papers."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Tables 5-6 report only accuracy and loss (plus time); no MCC/balanced accuracy/G-mean."
+    },
+    "A8": {
+      "code": "unclear",
+      "evidence": "Sec. III, Testbed 2: 'employing four different versions of the NSL-KDD dataset, with each version assigned to an individual client' — versions/distribution not specified."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "No repeated runs, averages or dispersion stated in Sec. IV / Tables 5-6."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "NSL-KDD and Car-Hacking evaluated separately (Tables 5-6); no cross-dataset or held-out-dataset evaluation."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "No code link; Sec. III mentions 'client, server, and utils python files' but no public repository."
+    }
+  },
+  "datasets": [
+    "NSL-KDD",
+    "Car-Hacking (CAN bus)"
+  ],
+  "notes": "IEEE Xplore and bash access blocked; text read from academia.edu page via web text extraction (no direct PDF), so quotes are as returned by the extractor. Minor inconsistency in paper: Sec. III.B says CNN 'trained for five epochs', Sec. IV.C says 3 epochs. A1 could arguably be provided_split for NSL-KDD (Table 3 lists NSL_Train/NSL_Test) but the text never states that training used KDD_Train and evaluation KDD_Test; flagged for second coder."
+}

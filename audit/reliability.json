@@ -1,0 +1,37 @@
+{
+ "n_papers": 7,
+ "n_pairs": 77,
+ "agreement": 0.974025974025974,
+ "kappa": 0.9697029313397599,
+ "disagreements": [
+  [
+   "C11",
+   "A8",
+   "no",
+   "yes"
+  ],
+  [
+   "Q3-03",
+   "A6",
+   "rerun",
+   "copied"
+  ]
+ ],
+ "resolutions": [
+  {
+   "paper": "C11",
+   "item": "A8",
+   "final": "no",
+   "reason": "clients grouped by device/application type = natural split under the protocol"
+  },
+  {
+   "paper": "Q3-03",
+   "item": "A6",
+   "final": "copied",
+   "reason": "Table 13 quotes published results; protocol codes 'some or all copied' as copied"
+  }
+ ],
+ "not_double_coded": {
+  "Q1-07": "second coder could not open the full text (rate-limited)"
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "Q3-03",
+ "citation": "Sengan S, Shieh C-S. Non-IID and aware federated intrusion detection with PBFT with secured model aggregation for multi institutional healthcare internet of things networks. Scientific Reports 16:23481, 2026. doi:10.1038/s41598-026-56167-4",
+ "url_read": "https://www.nature.com/articles/s41598-026-56167-4.pdf (HTML at nature.com and PMC13415842 truncated before Sect. 6; PDF read)",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "No train/validation/test split described in Sect. 6 (Experimental setup) or Sect. 7; Sect. 6.3 only describes partitioning of IoT-Flock/CICIoT2023 across K = 12 institutional nodes."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "BiLSTM temporal backbone with 'Sequence length T 10' (Table 4); 'sequence of embeddings {z_k,tau} tau=t-T+1..t Eq. (29)'. How sequences are formed relative to any split is not stated."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "Protocol-aware normalization: 'mu_r,j is the empirical mean of feature j computed over traffic samples of protocol r within X_k' (Sect. 5); whether X_k is training-only is not stated."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "Table 4: 'Maximum federation rounds Tmax 200'; 'Local training steps per round tau 10'."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "No statement that FedAvg/FedProx/SCAFFOLD/FedNova used the same rounds/local steps (Sect. 6-7)."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "Table 13 'Comparison of SOTA' lists published results from other papers; Table 6 baselines appear run by the authors. (Resolved after second coding.)"
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Tables 6-7 report Accuracy, F1, AUC-ROC (plus per-class F1); no MCC, balanced accuracy or G-mean."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "Sect. 6.3: 'Label skew is implemented using the Dirichlet-based class proportion sampling ... alpha in {0.1, 0.5, 1.0}'; quantity skew beta in {0.3, 0.7, 1.0}."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "'+- values represent standard deviation across alpha in {0.1,0.5,1.0} heterogeneity severity levels' (Table 7 footnote); fixed 'random seed of 42'; no repeated runs stated."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "No model trained on one dataset and tested on the other; Conclusion mentions a 'generalization gap of 8.47% between the IoT-Flock and CICIoT2023 transfer directions' but no such experiment/table is reported."
+  },
+  "A11": {
+   "code": "yes",
+   "evidence": "Code availability: 'GitHub repository N-IID-AFIDS pipeline (https://github.com/sudhakarsengan/N-IID-AFIDS-pipeline-)'; Zenodo 10.5281/zenodo.19998451. Repo verified to exist with main.py and notebooks (2026-09-30)."
+  }
+ },
+ "datasets": [
+  "IoT-Flock",
+  "CICIoT2023"
+ ],
+ "notes": "Read via WebFetch of the publisher PDF (direct download blocked by egress proxy); quotes are as returned by the fetch tool. A6=rerun is implied by baselines being evaluated under the paper's own IID/non-IID settings; no sentence says so explicitly - flag for second coder. The 8.47% 'transfer directions' remark in the Conclusion has no matching experiment. IoT-Flock uses natural ICU-group partitioning to 6 nodes; CICIoT2023 by device type to 12 nodes, plus Dirichlet label/quantity skew."
+}

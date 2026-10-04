@@ -1,0 +1,57 @@
+{
+ "id": "Q3-02",
+ "citation": "Chennoufi S, Han Y, Blanc G, De Cristofaro E, Kiennert C. PROTEAN: Federated intrusion detection in non-IID environments through prototype-based knowledge sharing. ESORICS 2025. arXiv:2507.05524",
+ "url_read": "https://arxiv.org/pdf/2507.05524",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "'we split the samples into 80% for training and 20% for testing' - random/stratified/temporal not stated."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "CNN 'consisting of two convolutional layers (64 and 128 filters)'; no windows/sequences described."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "No normalization/scaling/encoding described in the experimental setup."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "'10 rounds of federated training and three epochs of local training on each participant'."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "No statement that Cerberus, MOON-IDS, FedProx-IDS, FPL-IDS use the same rounds/epochs."
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "Table 1: 'Mean and standard deviation of the macro accuracy ... averaged over three runs' reported for all baselines under the paper's alpha settings (implies authors ran them; not explicitly stated)."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "'we use Macro accuracy, Accuracy, F1 score, and Precision'; macro accuracy not defined as balanced accuracy; no MCC/G-mean."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "'distribute the former to the participants in a non-IID manner according to the Dirichlet distribution', alpha in {0.75, 0.5, 0.25}."
+  },
+  "A9": {
+   "code": "runs_with_dispersion_or_test",
+   "evidence": "Table 1 mean and std over three seeds; 'we perform the Mann-Whitney U hypothesis test'."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Zero-shot evaluation on unseen attack classes is within the same datasets; no held-out dataset."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code URL in paper."
+  }
+ },
+ "datasets": [
+  "X-IIoTID",
+  "5G-NIDD"
+ ],
+ "notes": "arXiv preprint of ESORICS 2025 paper. A7 flag for second coder: 'Macro accuracy' undefined; if it equals mean per-class recall it would be balanced accuracy. A6 rerun is inferred from baselines reported with std over seeds, not an explicit statement.",
+ "unreadable": false
+}

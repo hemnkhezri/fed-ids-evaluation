@@ -1,0 +1,16 @@
+{
+ "selected": "C4",
+ "scores": {
+  "C1": 0.6776845085124534,
+  "C2": 0.6493705791560646,
+  "C3": 0.625354754496233,
+  "C4": 0.7021771086965223
+ },
+ "degenerate": {
+  "C2": 13,
+  "C3": 19,
+  "C4": 11,
+  "C1": 10
+ },
+ "rule": "highest mean MCC over 60 units; ties at 3 decimals go to the earlier candidate in the order C1, C2, C3, C4"
+}

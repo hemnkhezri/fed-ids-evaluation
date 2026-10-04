@@ -1,0 +1,55 @@
+{
+ "id": "C04",
+ "citation": "Olanrewaju-George B, Pranggono B. Federated learning-based intrusion detection system for the internet of things using unsupervised and supervised deep learning models. Cyber Security and Applications 3:100068, 2025. doi:10.1016/j.csa.2024.100068",
+ "url_read": "https://www.sciencedirect.com/science/article/pii/S2772918424000341",
+ "items": {
+  "A1": {
+   "code": "random",
+   "evidence": "Sec 3.3: \"a random sample of the abnormal data is created and concatenated with the normal testing set... They are shuffled\"; percentages not given."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "Sec 4.1: AE and DNN take the 115 features of a record as input; no windows/sequences."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "Sec 3.3: \"the normal training set, the normal threshold set, and the mixed data are scaled using a scaler function\" - what the scaler is fitted on is not stated."
+  },
+  "A4": {
+   "code": "one",
+   "evidence": "Tables 2-3 give (per-device) epochs from random search; number of FL rounds not stated (\"repeated until the global AE model converges\")."
+  },
+  "A5": {
+   "code": "copied",
+   "evidence": "Table 4: \"Performance comparison ... with other studies that used N-BaIoT dataset\" with values cited from [6],[7],[8],[11],[12],[14]."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "Table 4 baseline numbers quoted from other papers; Table 5 ML models and Non-FL models (Figs 5-7) also compared, with no stated training details."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Sec 4.4: \"accuracy, precision, recall, and F1-score\" plus TPR/FPR; no MCC/balanced accuracy."
+  },
+  "A8": {
+   "code": "no",
+   "evidence": "\"Each IoT device trains an AE locally on its data\"; nine N-BaIoT devices as clients (natural split); no non-IID partition evaluated."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs or dispersion reported."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Only N-BaIoT used."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "Only dataset link (UCI) given; no code link."
+  }
+ },
+ "datasets": [
+  "N-BaIoT"
+ ],
+ "notes": "Clients = nine N-BaIoT devices (natural per-device split). Unclear whether Table 2-3 epochs are FL local epochs. Mixed baselines: literature numbers (Table 4) and ML models (Table 5) of unstated provenance; coded copied because some are copied."
+}

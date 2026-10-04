@@ -1,0 +1,47 @@
+{
+ "FG": {
+  "family": "fedgtcl",
+  "mode": "twophase",
+  "pre": 5,
+  "lam": 0.1,
+  "server": "adaptopt",
+  "eta_s": 0.02,
+  "bias_corr": false,
+  "s": 0.3
+ },
+ "B1": {
+  "family": "gcngru",
+  "server": "fedavg",
+  "lr": 0.001,
+  "server_lr": 1.0
+ },
+ "B2": {
+  "family": "lstm",
+  "server": "fedavg",
+  "lr": 0.001,
+  "server_lr": 1.0
+ },
+ "B3": {
+  "family": "gcngru",
+  "server": "adam",
+  "lr": 0.001,
+  "eta_s": 0.005,
+  "bias_corr": true
+ },
+ "B4": {
+  "family": "gcngru",
+  "server": "fedavg",
+  "lr": 0.001,
+  "server_lr": 1.0,
+  "mu": 0.1
+ },
+ "B5": {
+  "family": "gcngru",
+  "server": "fedavg",
+  "lr": 0.003,
+  "server_lr": 1.0,
+  "ssl": true,
+  "tau_conf": 0.9,
+  "lam_u": 1.0
+ }
+}

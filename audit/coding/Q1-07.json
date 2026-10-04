@@ -1,0 +1,56 @@
+{
+ "id": "Q1-07",
+ "citation": "Rashid MM, Khan SU, Eusufzai F, Redwan MA, Sabuj SR, Elsharief M. A federated learning-based approach for improving intrusion detection in industrial Internet of Things networks. Network 3(1):158-179, 2023. doi:10.3390/network3010008",
+ "url_read": "https://www.academia.edu/99584694/A_Federated_Learning_Based_Approach_for_Improving_Intrusion_Detection_in_Industrial_Internet_of_Things_Networks",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "Table 2 header 'Type | Total | Train | Test' gives counts (~80/20) but no sentence in Sec. 4.2 states how the train/test split was made; 'chosen at random' refers to client assignment of training data."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "RNN classifier used (Sec. 4.4.1) but no description of input shape, time steps or windows in Secs. 4.2-4.4."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "Sec. 4.2: 'dummy encoding categorical data and by normalizing numeric data using the Z-score normalization' then SMOTE; order relative to the split not stated."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "Table 3: 'Local epochs 20', 'Global epochs 50'; Sec. 4.4.2 / Table 5 report 1st to 50th round."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "Centralized CNN/RNN baselines (Sec. 4.4.1): 'We trained our model for a total of 50 epochs'; no statement that baselines share the FL budget; Table 6 prior-work numbers not re-run."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "Sec. 4.4.4: 'Table 6 compares the efficacy of our work to that of comparable FL-based IDS approaches' (refs [33]-[36]); centralized CNN/RNN re-run by authors."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Sec. 4.3 defines Accuracy, Precision, Recall, F1-Score, TPR and FPR only."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "Table 5 header: '1st Round (B, W, G for IID/Non-IID) | 50th Round'; Sec. 4.4.2 defines IID and Non-IID settings for K=3/9/15."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs, seeds or averaging stated in Secs. 4.2-4.4."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Only Edge-IIoTset used (Sec. 4.2)."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link; 'Data Availability Statement: Not Applicable.'"
+  }
+ },
+ "datasets": [
+  "Edge-IIoTset"
+ ],
+ "notes": "MDPI page (mdpi.com/2673-8732/3/1/8) not fetchable in session; read published version via academia.edu upload using a tool that returns quotes/summaries, not the raw PDF. A5 coded on re-run centralized baselines (copied Table 6 prior works noted in A6). A2 unclear because RNN input form is not described.",
+ "unreadable": false
+}

@@ -1,0 +1,58 @@
+{
+ "id": "Q2-07",
+ "citation": "Hossain MA, Saif S, Islam MS. A novel federated learning approach for IoT botnet intrusion detection using SHAP-based knowledge distillation. Complex & Intelligent Systems 11:422, 2025. doi:10.1007/s40747-025-02001-9",
+ "url_read": "https://link.springer.com/article/10.1007/s40747-025-02001-9",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "'we employed a 70% training and 30% testing split in all experiments' - random/stratified/temporal not stated."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "Local models are Random Forest classifiers ('T (Number of Trees) as 10'); no windows or sequences."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "StandardScaler and LabelEncoder used (preprocessing section); not stated whether fitted on training data only."
+  },
+  "A4": {
+   "code": "neither",
+   "evidence": "No rounds, iterations or epochs reported (terms 'round', 'epoch', 'iteration' absent)."
+  },
+  "A5": {
+   "code": "copied",
+   "evidence": "Table 8 baselines (DNN [31], SGC [33], CNN-LSTM [36], FDL [25]) are from cited papers."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "'Table 8 provides a comparative analysis of our proposed decentralized approach with various existing centralized and federated learning models' - values from refs [25],[31],[33],[36]."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "'Accuracy, precision, recall, and F1-score' plus confusion matrices."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "'Each client is assigned data specific to particular botnet types ... non-IID' (Settings 1-3)."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No seeds, repeated runs, mean±std or statistical tests."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "MedBIoT, N-BaIoT, NCC2 each split 70/30 internally; no cross-dataset test."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link or code availability statement."
+  }
+ },
+ "datasets": [
+  "MedBIoT",
+  "N-BaIoT",
+  "NCC2"
+ ],
+ "notes": "FL scheme aggregates SHAP/feature-importance profiles of RF models rather than gradient training; hence no epochs.",
+ "unreadable": false
+}

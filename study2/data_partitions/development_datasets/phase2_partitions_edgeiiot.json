@@ -1,0 +1,262 @@
+[
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 101,
+  "attempts": 3,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   126,
+   170,
+   136,
+   34
+  ],
+  "train_attack": [
+   1,
+   151,
+   136,
+   1
+  ],
+  "val_sizes": [
+   100,
+   90,
+   67,
+   53
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 102,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   106,
+   54,
+   78,
+   228
+  ],
+  "train_attack": [
+   16,
+   45,
+   2,
+   226
+  ],
+  "val_sizes": [
+   85,
+   22,
+   79,
+   124
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 103,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   29,
+   42,
+   244,
+   151
+  ],
+  "train_attack": [
+   16,
+   42,
+   209,
+   22
+  ],
+  "val_sizes": [
+   18,
+   16,
+   145,
+   131
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 104,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   122,
+   182,
+   77,
+   85
+  ],
+  "train_attack": [
+   122,
+   25,
+   77,
+   65
+  ],
+  "val_sizes": [
+   43,
+   177,
+   45,
+   45
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 105,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   88,
+   121,
+   55,
+   202
+  ],
+  "train_attack": [
+   7,
+   119,
+   41,
+   122
+  ],
+  "val_sizes": [
+   71,
+   63,
+   30,
+   146
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 106,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   180,
+   8,
+   141,
+   137
+  ],
+  "train_attack": [
+   180,
+   3,
+   105,
+   1
+  ],
+  "val_sizes": [
+   79,
+   8,
+   79,
+   144
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 107,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   15,
+   10,
+   251,
+   190
+  ],
+  "train_attack": [
+   10,
+   8,
+   251,
+   20
+  ],
+  "val_sizes": [
+   13,
+   7,
+   119,
+   171
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 108,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   71,
+   327,
+   18,
+   50
+  ],
+  "train_attack": [
+   5,
+   219,
+   18,
+   47
+  ],
+  "val_sizes": [
+   67,
+   204,
+   5,
+   34
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 109,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   53,
+   127,
+   9,
+   277
+  ],
+  "train_attack": [
+   0,
+   10,
+   2,
+   277
+  ],
+  "val_sizes": [
+   46,
+   116,
+   12,
+   136
+  ],
+  "val_attack_total": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 110,
+  "attempts": 4,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   148,
+   55,
+   72,
+   191
+  ],
+  "train_attack": [
+   89,
+   9,
+   8,
+   183
+  ],
+  "val_sizes": [
+   100,
+   52,
+   66,
+   92
+  ],
+  "val_attack_total": 141
+ }
+]

@@ -1,0 +1,65 @@
+{
+ "dataset": "wustl",
+ "rows": 1194464,
+ "features": 41,
+ "windows": 423,
+ "empty_windows": 0,
+ "window_attack": 113,
+ "sequences": 403,
+ "seq_attack": 103,
+ "noniid_attempts": 2,
+ "noniid_fallback": false,
+ "iid": {
+  "train": [
+   61,
+   58,
+   61,
+   63
+  ],
+  "train_attack": [
+   14,
+   14,
+   14,
+   14
+  ],
+  "val": [
+   40,
+   43,
+   40,
+   37
+  ],
+  "val_attack": [
+   12,
+   12,
+   14,
+   9
+  ]
+ },
+ "noniid": {
+  "train": [
+   18,
+   66,
+   75,
+   84
+  ],
+  "train_attack": [
+   0,
+   0,
+   55,
+   1
+  ],
+  "val": [
+   15,
+   42,
+   56,
+   47
+  ],
+  "val_attack": [
+   0,
+   0,
+   47,
+   0
+  ]
+ },
+ "sha256_pkl": "9e3c8213cf092ba6b5df23ce62a275fdbb9646ce1cb811ade5d709535c51e759"
+}

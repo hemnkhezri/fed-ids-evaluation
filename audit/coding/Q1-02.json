@@ -1,0 +1,55 @@
+{
+  "id": "Q1-02",
+  "citation": "Chaurasia N, Ram M, Verma P, Mehta N, Bharot N. A federated learning approach to network intrusion detection using residual networks in industrial IoT networks. The Journal of Supercomputing 80(13):18325-18346, 2024. doi:10.1007/s11227-024-06153-2",
+  "url_read": "https://link.springer.com/article/10.1007/s11227-024-06153-2 (read via web text extraction)",
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Abstract/Experiments: 'X-IIoTID ... with an 80–20 training–testing split' — how the split was made (random, stratified, temporal) is not stated; X-IIoTID has no official train/test files."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "Proposed ResNet on per-record features; no windows, sequences or time steps described in methodology."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "No normalization/scaling/encoding described in the methodology or experimental sections."
+    },
+    "A4": {
+      "code": "both",
+      "evidence": "'each client performing four epochs of local training in each communication round. The FL process encompasses 20 communication rounds.'"
+    },
+    "A5": {
+      "code": "same",
+      "evidence": "Federated setting stated once for the federated environment ('The dataset is distributed among 10 clients ... four epochs ... 20 communication rounds') under which all FL models are compared; centralized: 'In DL methods, we used batch size = 32, and the number of epochs = 32.'"
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Table 3 ('Comparison of various classification techniques in centralized environment') and Fig. 7/9 federated comparisons are authors' own runs; Table 1 related work lists methods only, no copied numbers."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Metrics: Accuracy, Precision, Recall (TPR), TNR, F1, F2; no MCC/balanced accuracy/G-mean."
+    },
+    "A8": {
+      "code": "no",
+      "evidence": "'These training data are distributed among 10 clients while maintaining equal distribution for each client.'"
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "No repeated runs, means, standard deviations or seeds reported."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "Only X-IIoTID used; no cross-dataset evaluation."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "No code link; Data availability: 'Not applicable.'"
+    }
+  },
+  "datasets": [
+    "X-IIoTID"
+  ],
+  "notes": "Springer page read via web extraction. A5 borderline: the federated budget is stated as a single environment setting rather than explicitly 'for all methods'; coded same because it describes the shared federated environment for all compared FL models — flag for second coder. Binary task (attack vs normal) on a roughly balanced dataset (421,417 normal vs 399,417 attack)."
+}

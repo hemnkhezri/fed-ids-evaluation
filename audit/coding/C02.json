@@ -1,0 +1,55 @@
+{
+ "id": "C02",
+ "citation": "Belarbi O, Spyridopoulos T, Anthi E, Mavromatis I, Carnelli P, Khan A. Federated deep learning for intrusion detection in IoT networks. IEEE GLOBECOM 2023, pp. 237-242. doi:10.1109/GLOBECOM54140.2023.10437860",
+ "url_read": "https://orca.cardiff.ac.uk/id/eprint/166936/1/Federated_Deep_Learning_for_Intrusion_Detection_in_IoT_Networks.pdf",
+ "items": {
+  "A1": {
+   "code": "random",
+   "evidence": "Sec III-B: \"split the local on-the-device dataset into training and testing sets in proportions of 80% and 20%\"; \"a stratified data split effectively ensures enough samples of the minority class\"."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "Table III: DNN and DBN with 38 input features per flow record; no windows/sequences."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "Sec III-B.2: \"we perform the normalisation on each FL client independently\" (StandardScaler, OrdinalEncoder); whether fit on the training portion only is not stated (Sec III-B, Fig. 1)."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "Sec IV-A: \"train the global DL models across 50 rounds and two epochs for each training round\"."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "Centralised baseline training epochs/budget not stated in Sec IV."
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "Centralised baseline with same architectures run by authors; Sec IV-C: \"we could not compare our results with other works\"."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Weighted precision, recall, F1-score only; \"the accuracy metric cannot be relied upon\"; no MCC/balanced accuracy."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "Sec III-B: \"group the data samples by destination IP address, select the top ten IPs... assign each IP's traffic to a single FL client\"; Table II non-IID class distribution."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs, means, std or confidence intervals reported in Sec IV."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Pre-trained weights from \"the rest of the destination IP addresses\" of TON_IoT; evaluation only on the clients' own TON_IoT 20% test splits."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link or repository given."
+  }
+ },
+ "datasets": [
+  "TON_IoT (network)"
+ ],
+ "notes": "Clients defined by destination IP (natural partition that is explicitly non-IID and analysed as such); FedAvg, FedProx, FedYogi compared; random vs pre-trained initialization. Text read via web fetch extraction of the PDF."
+}

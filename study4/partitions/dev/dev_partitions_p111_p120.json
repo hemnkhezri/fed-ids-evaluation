@@ -1,0 +1,572 @@
+[
+ {
+  "dataset": "wustl",
+  "partition_seed": 111,
+  "attempts": 1,
+  "train_sizes": [
+   128,
+   85,
+   15,
+   15
+  ],
+  "train_attack": [
+   0,
+   40,
+   15,
+   1
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 112,
+  "attempts": 9,
+  "train_sizes": [
+   8,
+   103,
+   71,
+   61
+  ],
+  "train_attack": [
+   2,
+   1,
+   6,
+   47
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 113,
+  "attempts": 1,
+  "train_sizes": [
+   72,
+   99,
+   16,
+   56
+  ],
+  "train_attack": [
+   21,
+   19,
+   16,
+   0
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 114,
+  "attempts": 2,
+  "train_sizes": [
+   29,
+   156,
+   35,
+   23
+  ],
+  "train_attack": [
+   29,
+   3,
+   2,
+   22
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 115,
+  "attempts": 7,
+  "train_sizes": [
+   17,
+   108,
+   25,
+   93
+  ],
+  "train_attack": [
+   0,
+   52,
+   0,
+   4
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 116,
+  "attempts": 4,
+  "train_sizes": [
+   151,
+   13,
+   22,
+   57
+  ],
+  "train_attack": [
+   9,
+   0,
+   1,
+   46
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 117,
+  "attempts": 1,
+  "train_sizes": [
+   167,
+   25,
+   28,
+   23
+  ],
+  "train_attack": [
+   0,
+   10,
+   23,
+   23
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 118,
+  "attempts": 2,
+  "train_sizes": [
+   155,
+   36,
+   40,
+   12
+  ],
+  "train_attack": [
+   18,
+   0,
+   38,
+   0
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 119,
+  "attempts": 2,
+  "train_sizes": [
+   69,
+   60,
+   54,
+   60
+  ],
+  "train_attack": [
+   54,
+   0,
+   1,
+   1
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 120,
+  "attempts": 1,
+  "train_sizes": [
+   25,
+   10,
+   33,
+   175
+  ],
+  "train_attack": [
+   18,
+   1,
+   33,
+   4
+  ],
+  "val_total": 160,
+  "val_attack": 47
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 111,
+  "attempts": 2,
+  "train_sizes": [
+   251,
+   103,
+   83,
+   25
+  ],
+  "train_attack": [
+   208,
+   57,
+   70,
+   19
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 112,
+  "attempts": 9,
+  "train_sizes": [
+   20,
+   53,
+   94,
+   295
+  ],
+  "train_attack": [
+   15,
+   1,
+   53,
+   285
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 113,
+  "attempts": 1,
+  "train_sizes": [
+   152,
+   180,
+   100,
+   30
+  ],
+  "train_attack": [
+   121,
+   132,
+   100,
+   1
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 114,
+  "attempts": 2,
+  "train_sizes": [
+   191,
+   96,
+   45,
+   130
+  ],
+  "train_attack": [
+   191,
+   14,
+   21,
+   128
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 115,
+  "attempts": 1,
+  "train_sizes": [
+   24,
+   13,
+   52,
+   373
+  ],
+  "train_attack": [
+   23,
+   0,
+   1,
+   330
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 116,
+  "attempts": 5,
+  "train_sizes": [
+   26,
+   143,
+   182,
+   111
+  ],
+  "train_attack": [
+   0,
+   137,
+   111,
+   106
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 117,
+  "attempts": 1,
+  "train_sizes": [
+   90,
+   89,
+   171,
+   112
+  ],
+  "train_attack": [
+   0,
+   78,
+   165,
+   111
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 118,
+  "attempts": 1,
+  "train_sizes": [
+   269,
+   20,
+   135,
+   38
+  ],
+  "train_attack": [
+   174,
+   20,
+   123,
+   37
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 119,
+  "attempts": 1,
+  "train_sizes": [
+   357,
+   13,
+   14,
+   78
+  ],
+  "train_attack": [
+   251,
+   12,
+   14,
+   77
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "toniot",
+  "partition_seed": 120,
+  "attempts": 1,
+  "train_sizes": [
+   141,
+   13,
+   180,
+   128
+  ],
+  "train_attack": [
+   138,
+   9,
+   179,
+   28
+  ],
+  "val_total": 94,
+  "val_attack": 70
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 111,
+  "attempts": 1,
+  "train_sizes": [
+   127,
+   243,
+   81,
+   15
+  ],
+  "train_attack": [
+   0,
+   208,
+   80,
+   1
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 112,
+  "attempts": 9,
+  "train_sizes": [
+   21,
+   85,
+   110,
+   250
+  ],
+  "train_attack": [
+   11,
+   3,
+   40,
+   235
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 113,
+  "attempts": 1,
+  "train_sizes": [
+   154,
+   177,
+   85,
+   50
+  ],
+  "train_attack": [
+   104,
+   100,
+   85,
+   0
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 114,
+  "attempts": 2,
+  "train_sizes": [
+   144,
+   161,
+   45,
+   116
+  ],
+  "train_attack": [
+   144,
+   13,
+   18,
+   114
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 115,
+  "attempts": 1,
+  "train_sizes": [
+   23,
+   32,
+   79,
+   332
+  ],
+  "train_attack": [
+   22,
+   0,
+   0,
+   267
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 116,
+  "attempts": 4,
+  "train_sizes": [
+   174,
+   15,
+   36,
+   241
+  ],
+  "train_attack": [
+   40,
+   0,
+   20,
+   229
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 117,
+  "attempts": 1,
+  "train_sizes": [
+   155,
+   75,
+   147,
+   89
+  ],
+  "train_attack": [
+   0,
+   61,
+   139,
+   89
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 118,
+  "attempts": 1,
+  "train_sizes": [
+   303,
+   13,
+   119,
+   31
+  ],
+  "train_attack": [
+   147,
+   13,
+   99,
+   30
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 119,
+  "attempts": 1,
+  "train_sizes": [
+   392,
+   8,
+   10,
+   56
+  ],
+  "train_attack": [
+   216,
+   7,
+   10,
+   56
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ },
+ {
+  "dataset": "edgeiiot",
+  "partition_seed": 120,
+  "attempts": 1,
+  "train_sizes": [
+   122,
+   15,
+   154,
+   175
+  ],
+  "train_attack": [
+   111,
+   9,
+   151,
+   18
+  ],
+  "val_total": 310,
+  "val_attack": 141
+ }
+]

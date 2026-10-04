@@ -1,0 +1,80 @@
+{
+ "n": 24,
+ "ids": [
+  "C01",
+  "C02",
+  "C03",
+  "C04",
+  "C05",
+  "C07",
+  "C08",
+  "C11",
+  "C18",
+  "Q1-02",
+  "Q1-07",
+  "Q1-08",
+  "Q1-09",
+  "Q2-07",
+  "Q2-10",
+  "Q3-02",
+  "Q3-03",
+  "Q3-07",
+  "Q4-03",
+  "Q4-05",
+  "Q4-07",
+  "Q4-09",
+  "Q6-04",
+  "Q6-07"
+ ],
+ "tallies": {
+  "A1": {
+   "not_reported": 21,
+   "random": 3
+  },
+  "A2": {
+   "no": 14,
+   "unclear": 10
+  },
+  "A3": {
+   "all_data": 3,
+   "not_reported": 20,
+   "train_only": 1
+  },
+  "A4": {
+   "both": 11,
+   "neither": 4,
+   "one": 9
+  },
+  "A5": {
+   "different_or_unstated": 15,
+   "copied": 5,
+   "same": 4
+  },
+  "A6": {
+   "rerun": 17,
+   "copied": 7
+  },
+  "A7": {
+   "no": 23,
+   "yes": 1
+  },
+  "A8": {
+   "no": 6,
+   "yes": 11,
+   "unclear": 7
+  },
+  "A9": {
+   "single_or_not_reported": 18,
+   "runs_with_dispersion_or_test": 5,
+   "runs_no_dispersion": 1
+  },
+  "A10": {
+   "no": 22,
+   "yes": 2
+  },
+  "A11": {
+   "no": 22,
+   "yes": 2
+  }
+ }
+}

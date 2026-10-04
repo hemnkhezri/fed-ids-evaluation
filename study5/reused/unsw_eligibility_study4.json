@@ -1,0 +1,208 @@
+{
+ "eligible": true,
+ "criteria": {
+  "C1 training attack sequences >= 500 in every partition": true,
+  "C2 training benign sequences >= 500 in every partition": true,
+  "C3 validation attack sequences >= 30": true,
+  "C4 validation benign sequences >= 30": true
+ },
+ "windows": 85348,
+ "sequences": 85304,
+ "train_attack_min": 21746,
+ "train_benign_min": 20908,
+ "val_attack": 21308,
+ "val_benign": 21342,
+ "base_sha256": "561468eee88145efdbc6183d307a408d77093184eed0e1993569c6cb00aad94d",
+ "partitions": [
+  {
+   "partition_seed": 101,
+   "attempts": 1,
+   "train_sizes": [
+    11675,
+    153,
+    14367,
+    16459
+   ],
+   "train_attack": [
+    6107,
+    153,
+    8,
+    15478
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "93aff1ed258de9ac02801ab66a038ce50e8e962925e14093b26def5e5ba912b7"
+  },
+  {
+   "partition_seed": 102,
+   "attempts": 1,
+   "train_sizes": [
+    11352,
+    4047,
+    9469,
+    17786
+   ],
+   "train_attack": [
+    1035,
+    2975,
+    121,
+    17615
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "9e6a02cb128a2ac95d873ab41e16c75861738a16f06ef71233e1713960b6002c"
+  },
+  {
+   "partition_seed": 103,
+   "attempts": 1,
+   "train_sizes": [
+    2742,
+    2946,
+    20376,
+    16590
+   ],
+   "train_attack": [
+    1151,
+    2884,
+    16122,
+    1589
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "74a4ea05cad8dad04d933fe55a4f27201959fc7ec7b5c3a4fbec343ac5b2493b"
+  },
+  {
+   "partition_seed": 104,
+   "attempts": 1,
+   "train_sizes": [
+    8387,
+    21346,
+    6146,
+    6775
+   ],
+   "train_attack": [
+    8327,
+    2313,
+    6016,
+    5090
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "e303d3531135c9eb0bf3cc536d1a8f9b8872ff9e10608775c440a84af877dea6"
+  },
+  {
+   "partition_seed": 105,
+   "attempts": 1,
+   "train_sizes": [
+    644,
+    18982,
+    14822,
+    8206
+   ],
+   "train_attack": [
+    639,
+    2865,
+    13362,
+    4880
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "acf6d212c6e25a926bae0bafff8208ab759138cd9be158d63f8edb33781eb493"
+  },
+  {
+   "partition_seed": 106,
+   "attempts": 1,
+   "train_sizes": [
+    13211,
+    867,
+    11774,
+    16802
+   ],
+   "train_attack": [
+    13211,
+    511,
+    8023,
+    1
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "228d786373605e660b0d75cfa020a84ed48438317fa9b3bd99d10d8550f4ced9"
+  },
+  {
+   "partition_seed": 107,
+   "attempts": 1,
+   "train_sizes": [
+    296,
+    33267,
+    3354,
+    5737
+   ],
+   "train_attack": [
+    64,
+    18221,
+    544,
+    2917
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "33c9866a6d6c38394706dfbeacf858f2f5d20b71ca0464b18baebd9103ed22d7"
+  },
+  {
+   "partition_seed": 108,
+   "attempts": 1,
+   "train_sizes": [
+    18033,
+    5048,
+    18913,
+    660
+   ],
+   "train_attack": [
+    17916,
+    0,
+    3585,
+    245
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "65bd49a8cf69447bd00243e7ea998e4a45ea21cce6e5f5e05ca9c1dd58b8a001"
+  },
+  {
+   "partition_seed": 109,
+   "attempts": 1,
+   "train_sizes": [
+    5964,
+    14624,
+    1242,
+    20824
+   ],
+   "train_attack": [
+    0,
+    749,
+    190,
+    20807
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "1a1009d431bb2421cbea889b81bf126afe319b1c714c21fcd7eabefa9478ec84"
+  },
+  {
+   "partition_seed": 110,
+   "attempts": 1,
+   "train_sizes": [
+    9618,
+    607,
+    14122,
+    18307
+   ],
+   "train_attack": [
+    9615,
+    295,
+    11834,
+    2
+   ],
+   "val_total": 42650,
+   "val_attack": 21308,
+   "sha256": "beacd0c20dbad15da19d77e65f7d028d4cf989539816733f4bd4f625982c4355"
+  }
+ ]
+}

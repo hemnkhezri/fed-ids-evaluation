@@ -1,0 +1,57 @@
+{
+  "id": "Q6-04",
+  "citation": "Wang Y, Li J, Han Z, Cheng P, Kumar R. FedSTGCN: a novel federated spatiotemporal graph learning-based network intrusion detection method for the Internet of Things. Frontiers of Information Technology & Electronic Engineering 26(7):1164-1179, 2025. doi:10.1631/FITEE.2400932",
+  "url_read": "https://jzus.zju.edu.cn/opentxt.php?doi=10.1631/FITEE.2400932",
+  "unreadable": false,
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Sec. 5.1: '20% data of each dataset was used ... The experimental dataset was then divided into two parts, with 70% for training and 30% for test.' Method (random/temporal) not stated."
+    },
+    "A2": {
+      "code": "unclear",
+      "evidence": "Sec. 4.1: 'all data flows are sorted according to nodes and time series'; LSTM processes GCN node embeddings with 'temporal correlations' (Sec. 4); how the 70/30 split relates to the time ordering is not stated."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "Sec. 5.1: 'The datasets were normalized, and fields ... such as IPV4_SRC_ADDR and L4_SRC_PORT, were removed.' Fit scope not stated (Sec. 4.2 min/max is over 'all nodes of the client', train/test not distinguished)."
+    },
+    "A4": {
+      "code": "one",
+      "evidence": "Sec. 5.1: 'number of rounds R for aggregating FL parameters using the FedAvg method was set to 100'; local epochs, batch size, learning rate not stated."
+    },
+    "A5": {
+      "code": "same",
+      "evidence": "Tables 2-5 report DeepFed, EEFED, FedAGRU and FedSTGCN at the same rounds R = 10, 20, ..., 100 with m = 20 clients (Sec. 5.1); local epochs not reported for any method."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Tables 2-5 give round-by-round results of DeepFed, EEFED and FedAGRU on NF-BoT-IoT-v2 and NF-ToN-IoT-v2, i.e. produced in the authors' setup; no statement that numbers were taken from the original papers."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Table 1 / Sec. 5: Accuracy, Recall, Precision, F1-score, Weighted recall, Weighted F1-score only."
+    },
+    "A8": {
+      "code": "no",
+      "evidence": "Sec. 5.1: 'The training dataset is evenly divided into m parts'; Conclusion: 'experiments presented in this paper are based on independent and identically distributed (IID) datasets'."
+    },
+    "A9": {
+      "code": "runs_with_dispersion_or_test",
+      "evidence": "Sec. 5: 'multiple tests were conducted to verify the stability ... The confidence intervals ... were statistically analyzed, and the results can be found in the supplementary materials.'"
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "Each dataset trained and tested separately (Tables 2-5); no cross-dataset evaluation."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "Data availability: 'available from the corresponding author upon reasonable request'; no code link."
+    }
+  },
+  "datasets": [
+    "NF-BoT-IoT-v2",
+    "NF-ToN-IoT-v2"
+  ],
+  "notes": "Read journal-hosted full text via the web-fetch tool. Datasets are the N-STGAT versions of NF-BoT-IoT-v2 / NF-ToN-IoT-v2, 20% subsample. A5 'same' rests on Tables 2-5 showing every method at the same rounds R (shared R=100 setting); there is no sentence saying baselines used the same local epochs, which are not reported for any method. A6 'rerun' is not stated in words but follows from the per-round baseline results in the authors' setting. A9: the confidence intervals are only in the supplementary material (not opened); number of runs not stated in the main text."
+}

@@ -1,0 +1,58 @@
+{
+ "id": "Q1-09",
+ "citation": "Fenanir S, Semchedine F. Smart intrusion detection in IoT edge computing using federated learning. Revue d'Intelligence Artificielle 37(5):1133-1145, 2023. doi:10.18280/ria.370505",
+ "url_read": "https://iieta.org/download/file/fid/112338",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "N-BaIoT: 'Each user was allocated a 10% subset of the total training dataset for training, while the remaining 10% was utilized for model evaluation'; IoT-23/IoTID20 'divided into 9 subsets'; split method not stated."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "LSTM (and CNN) used but no sentence on input shape, time steps, sequence length or windows."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "Preprocessing described only as handling 'missing values, inconsistent values, duplicate instances, etc.' followed by feature selection; no scaling/encoding fit stated."
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "'The learning process is performed over 10 rounds' with 5 training epochs per user (Table 5)."
+  },
+  "A5": {
+   "code": "copied",
+   "evidence": "Only external baselines are in Table 6 'Comparison of proposed model and related works' (refs [39]-[44]); DNN/CNN/LSTM are variants of the proposed approach sharing Table 5 settings."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "'Table 6 presents a comparison between the effectiveness of our approach and other IDS approaches'; rows report results of cited works [39]-[44]."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Metrics: Accuracy, Precision, Recall and F1-Score only."
+  },
+  "A8": {
+   "code": "unclear",
+   "evidence": "No sentence on IID/non-IID or how the 9 user subsets differ."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs, averages or standard deviations reported."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Each of IoTID20, IoT-23, N-BaIoT evaluated separately; no cross-dataset testing."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link in paper."
+  }
+ },
+ "datasets": [
+  "IoTID20",
+  "IoT-23",
+  "N-BaIoT"
+ ],
+ "notes": "Read published OA PDF via fetch tool returning quotes.",
+ "unreadable": false
+}

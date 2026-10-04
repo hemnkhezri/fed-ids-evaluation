@@ -1,0 +1,65 @@
+{
+ "dataset": "toniot",
+ "rows": 189300,
+ "features": 36,
+ "windows": 631,
+ "empty_windows": 0,
+ "window_attack": 491,
+ "sequences": 556,
+ "seq_attack": 424,
+ "noniid_attempts": 7,
+ "noniid_fallback": false,
+ "iid": {
+  "train": [
+   117,
+   113,
+   116,
+   116
+  ],
+  "train_attack": [
+   87,
+   88,
+   90,
+   89
+  ],
+  "val": [
+   22,
+   26,
+   23,
+   23
+  ],
+  "val_attack": [
+   17,
+   16,
+   19,
+   18
+  ]
+ },
+ "noniid": {
+  "train": [
+   263,
+   29,
+   56,
+   114
+  ],
+  "train_attack": [
+   163,
+   24,
+   55,
+   112
+  ],
+  "val": [
+   56,
+   4,
+   14,
+   20
+  ],
+  "val_attack": [
+   32,
+   4,
+   14,
+   20
+  ]
+ },
+ "sha256_pkl": "a47c71531dcbd64c42e6f7ca382a231dff5d72d5a4885dff1f4000c15acac1a0"
+}

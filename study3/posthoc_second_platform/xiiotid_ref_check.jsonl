@@ -1,0 +1,4 @@
+{"dataset": "xiiotid", "partition_seed": 101, "regime": "noniid", "seed": 201, "config": "REF", "R": 50, "steps": 20, "MCC": 0.02574573505026816, "BalancedAcc": 0.5172079268425762, "TP": 2920, "FP": 223, "TN": 47, "FN": 474, "degenerate": "no"}
+{"dataset": "xiiotid", "partition_seed": 101, "regime": "iid", "seed": 201, "config": "REF", "R": 50, "steps": 20, "MCC": 0.18644010785047269, "BalancedAcc": 0.6640454833147821, "TP": 2446, "FP": 106, "TN": 164, "FN": 948, "degenerate": "no"}
+{"dataset": "xiiotid", "partition_seed": 102, "regime": "noniid", "seed": 201, "config": "REF", "R": 50, "steps": 20, "MCC": 0.0, "BalancedAcc": 0.5, "TP": 3394, "FP": 270, "TN": 0, "FN": 0, "degenerate": "always-attack"}
+{"dataset": "xiiotid", "partition_seed": 102, "regime": "iid", "seed": 201, "config": "REF", "R": 50, "steps": 20, "MCC": 0.13278249699072206, "BalancedAcc": 0.6186320085554028, "TP": 2364, "FP": 124, "TN": 146, "FN": 1030, "degenerate": "no"}

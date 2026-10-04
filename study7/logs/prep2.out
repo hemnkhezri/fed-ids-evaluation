@@ -1,0 +1,8 @@
+xiiotid rows 820088 with time and label 819791
+xiiotid features 59 categorical ['Protocol', 'Service'] dropped []
+xiiotid after duplicate removal 700127
+xiiotid systematic sample every 3th record -> 233376
+xiiotid train 140026 records, attack share 0.4092
+xiiotid validation 93350 records, attack share 0.4391
+xiiotid region rule satisfied: True
+xiiotid saved /home/claude/s7/data/xiiotid.npz sha256 f63b7050af9a81bbbce946959db05ffdd96c11284dc9347cd5dff29e165ed2d1

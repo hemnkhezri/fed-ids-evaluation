@@ -1,0 +1,1 @@
+Q2-04 excluded (criterion 4): full text still not readable on 2026-09-30. PMC12116512 and PubMed 40438227 both returned a reCAPTCHA page. The full title, venue and DOI could not be identified, so no publisher or repository copy could be found. Shell access to Europe PMC/NCBI APIs is blocked by proxy policy.

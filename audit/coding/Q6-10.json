@@ -1,0 +1,57 @@
+{
+  "id": "Q6-10",
+  "citation": "Oladele DA, Ige A, Agbo-Ajala O, Ekundayo O, Thottempudi SG, Sibiya M, Mnkandla E. G-PFL-ID: Graph-driven personalized federated learning for unsupervised intrusion detection in non-IID IoT systems. IoT 7(1):13, 2026. doi:10.3390/iot7010013",
+  "url_read": "https://www.mdpi.com/2624-831X/7/1/13",
+  "unreadable": true,
+  "items": {
+    "A1": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A2": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A3": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A4": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A5": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A6": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A7": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A8": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A9": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A10": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    },
+    "A11": {
+      "code": null,
+      "evidence": "Experimental sections (4 onward) could not be read."
+    }
+  },
+  "datasets": [
+    "IoT-23",
+    "N-BaIoT"
+  ],
+  "notes": "UNREADABLE for coding: the MDPI HTML fetched through the web-fetch tool was cut off inside Sec. 3.3.3 (FedReg), so the experimental setup, results and Data Availability Statement (Sec. 4 onward) could not be read. The PDF link (/pdf) returned binary data that the tool could not extract; the /xml and /htm versions were refused (URL provenance rule); doi.org redirects to the same HTML; ResearchGate returned HTTP 429 twice; shell egress to mdpi.com is blocked by proxy policy. Seen in the visible text only (not used for codes): IoT-23 with 'Dirichlet-based partitioning with concentration parameters α∈{0.1, 0.5, ∞}' and 'client counts K∈{10,15,20}'; N-BaIoT with 'natural device-based partitioning' (K=9); metrics 'AUROC, AUPR, detection rates at fixed false-positive rates'. Needs re-coding when the full text can be opened."
+}

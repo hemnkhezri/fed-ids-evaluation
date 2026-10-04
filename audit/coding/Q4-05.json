@@ -1,0 +1,56 @@
+{
+  "id": "Q4-05",
+  "citation": "Wang J, Yang K, Li M. NIDS-FGPA: A federated learning network intrusion detection algorithm based on secure aggregation of gradient similarity models. PLOS ONE 19(10):e0308639, 2024. doi:10.1371/journal.pone.0308639",
+  "url_read": "https://pdfs.semanticscholar.org/9bbf/929836245d03faec26788b048ee3f42a4e3b.pdf (PDF of the PLOS article; journals.plos.org and PMC11500881 HTML also consulted but truncated)",
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "No train/test split described (Sects. 3.2, 4.1-4.2); Sect. 4.2 only 'randomly partitioning the training set into C - C2 parts'."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "'BIGRU treats m2 as a multivariate time series input with a single time step' (Sect. 3.3); input is one record as an 8x8 image (Sect. 3.2)."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "'the data was scaled using the min-max normalization method ... between 0 and 1' (Sect. 3.2, Eq. 14); fit scope not stated."
+    },
+    "A4": {
+      "code": "one",
+      "evidence": "Table 4: 'R FL communication rounds 100'; no local epochs/steps given (Table 4 lists c, R, beta, B=640, loss, Adam, rho=0.001, R'=5)."
+    },
+    "A5": {
+      "code": "copied",
+      "evidence": "Table 8 IDS baselines are 'previously proposed models' with numbers from their papers (Sect. 5.4); FedAvg/FedNova (Table 6) parity with GSA not stated."
+    },
+    "A6": {
+      "code": "copied",
+      "evidence": "Sect. 5.4: 'we utilized the methods previously proposed on the Edge-IIoTset and CIC IoT 2023 datasets to compare ... with those of previously proposed models' (Table 8, '/' for missing cells). FedAvg/FedNova in Table 6 presumably run by authors."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Sect. 4.3 / Tables 6, 8: Acc, Rec, Pre, F1 only."
+    },
+    "A8": {
+      "code": "yes",
+      "evidence": "Sect. 4.2: 'C2 parts contain Non-IID data, such as containing only one attack category ... when C = 3, C2 = 1, and when C = 6, C2 = 2'."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "No repeated runs, seeds, SD or statistical tests reported (Sects. 4-5)."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "Edge-IIoTset and CIC IoT 2023 evaluated separately; no cross-dataset test (Sect. 5)."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "Data Availability gives only dataset links (Kaggle, UNB); no code link."
+    }
+  },
+  "datasets": [
+    "Edge-IIoTset",
+    "CIC IoT 2023"
+  ],
+  "notes": "Mixed baselines: aggregation baselines FedAvg/FedNova (Table 6, likely run by authors, parity unstated) and Table 8 centralized IDS models with numbers from earlier papers (different models per dataset, '/' cells). Coded A5/A6 = copied because some baselines are copied. Sect. 5.3 mentions 'after 50 iterations' for training curves; Table 4 says R = 100. Fetch-tool outputs for Table 4 from the PLOS HTML were inconsistent; the Semantic Scholar PDF table was used."
+}

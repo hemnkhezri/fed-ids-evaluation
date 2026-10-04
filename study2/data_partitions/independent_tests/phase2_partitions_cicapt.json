@@ -1,0 +1,262 @@
+[
+ {
+  "dataset": "cicapt",
+  "partition_seed": 101,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   1798,
+   17,
+   19,
+   749
+  ],
+  "train_attack": [
+   4,
+   17,
+   0,
+   35
+  ],
+  "val_sizes": [
+   1194,
+   12,
+   21,
+   495
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 102,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   1284,
+   120,
+   1115,
+   64
+  ],
+  "train_attack": [
+   2,
+   7,
+   1,
+   46
+  ],
+  "val_sizes": [
+   816,
+   100,
+   768,
+   38
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 103,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   192,
+   16,
+   583,
+   1792
+  ],
+  "train_attack": [
+   3,
+   8,
+   40,
+   5
+  ],
+  "val_sizes": [
+   120,
+   10,
+   340,
+   1252
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 104,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   20,
+   2304,
+   36,
+   223
+  ],
+  "train_attack": [
+   16,
+   6,
+   18,
+   16
+  ],
+  "val_sizes": [
+   25,
+   1537,
+   14,
+   146
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 105,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   1101,
+   48,
+   229,
+   1205
+  ],
+  "train_attack": [
+   0,
+   24,
+   8,
+   24
+  ],
+  "val_sizes": [
+   742,
+   26,
+   133,
+   821
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 106,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   38,
+   39,
+   469,
+   2037
+  ],
+  "train_attack": [
+   38,
+   1,
+   16,
+   1
+  ],
+  "val_sizes": [
+   14,
+   33,
+   308,
+   1367
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 107,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   31,
+   1873,
+   326,
+   353
+  ],
+  "train_attack": [
+   0,
+   47,
+   1,
+   8
+  ],
+  "val_sizes": [
+   16,
+   1215,
+   243,
+   248
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 108,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   59,
+   601,
+   1883,
+   40
+  ],
+  "train_attack": [
+   46,
+   0,
+   9,
+   1
+  ],
+  "val_sizes": [
+   39,
+   415,
+   1225,
+   43
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 109,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   728,
+   1673,
+   125,
+   57
+  ],
+  "train_attack": [
+   0,
+   1,
+   1,
+   54
+  ],
+  "val_sizes": [
+   479,
+   1121,
+   92,
+   30
+  ],
+  "val_attack_total": 31
+ },
+ {
+  "dataset": "cicapt",
+  "partition_seed": 110,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   27,
+   43,
+   297,
+   2216
+  ],
+  "train_attack": [
+   26,
+   1,
+   28,
+   1
+  ],
+  "val_sizes": [
+   12,
+   22,
+   210,
+   1478
+  ],
+  "val_attack_total": 31
+ }
+]

@@ -1,0 +1,21 @@
+{
+ "windows": 9180,
+ "sequences": 9160,
+ "noniid_attempts": 1,
+ "noniid_fallback": false,
+ "noniid_train": [
+  1112,
+  908,
+  3456,
+  20
+ ],
+ "noniid_val": [
+  756,
+  244,
+  2650,
+  14
+ ],
+ "noniid_val_attack_total": 3394,
+ "feasibility": "confirmatory tests allowed",
+ "sha256": "98adedfa880c9f22dc2cb6a59f8ea96eed2aac7bf88f1a0ad0503a174ffc35a7"
+}

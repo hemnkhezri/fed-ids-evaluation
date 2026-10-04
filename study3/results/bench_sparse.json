@@ -1,0 +1,58 @@
+[
+ {
+  "V": 10,
+  "ref_dense_ms": 0.1076,
+  "batched_dense_ms": 0.2296,
+  "sparse_ms": 0.178,
+  "max_abs_diff": 2.9802322387695312e-08
+ },
+ {
+  "V": 20,
+  "ref_dense_ms": 0.1198,
+  "batched_dense_ms": 0.251,
+  "sparse_ms": 0.1937,
+  "max_abs_diff": 2.9802322387695312e-08
+ },
+ {
+  "V": 50,
+  "ref_dense_ms": 0.2219,
+  "batched_dense_ms": 0.2644,
+  "sparse_ms": 0.2388,
+  "max_abs_diff": 2.9802322387695312e-08
+ },
+ {
+  "V": 100,
+  "ref_dense_ms": 0.5403,
+  "batched_dense_ms": 0.3215,
+  "sparse_ms": 0.3098,
+  "max_abs_diff": 2.9802322387695312e-08
+ },
+ {
+  "V": 200,
+  "ref_dense_ms": 3.3098,
+  "batched_dense_ms": 0.53,
+  "sparse_ms": 0.462,
+  "max_abs_diff": 2.9802322387695312e-08
+ },
+ {
+  "V": 400,
+  "ref_dense_ms": 13.8882,
+  "batched_dense_ms": 1.2693,
+  "sparse_ms": 0.7579,
+  "max_abs_diff": 2.9802322387695312e-08
+ },
+ {
+  "V": 800,
+  "ref_dense_ms": 83.6309,
+  "batched_dense_ms": 3.8781,
+  "sparse_ms": 1.4245,
+  "max_abs_diff": 8.940696716308594e-08
+ },
+ {
+  "V": 1600,
+  "ref_dense_ms": 444.547,
+  "batched_dense_ms": 15.9429,
+  "sparse_ms": 2.6305,
+  "max_abs_diff": 2.9802322387695312e-08
+ }
+]

@@ -1,0 +1,55 @@
+{
+  "id": "Q4-07",
+  "citation": "Ferrag MA, Friha O, Hamouda D, Maglaras L, Janicke H. Edge-IIoTset: A new comprehensive realistic cyber security dataset of IoT and IIoT applications for centralized and federated learning. IEEE Access 10:40281-40306, 2022. doi:10.1109/ACCESS.2022.3165809",
+  "url_read": "https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1552&context=ecuworks2022-2026",
+  "items": {
+    "A1": {
+      "code": "random",
+      "evidence": "Sect. IV.A.6 Step 7: 'train_test_split from the sklearn.model_selection package for split arrays or matrices into random train and test subsets'."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "Flow-feature records (CSV) fed to a DNN; no windows or sequences described (Sects. IV-VI)."
+    },
+    "A3": {
+      "code": "not_reported",
+      "evidence": "Step 9: 'We applied StandardScaler ... for standardizing features by removing the mean and scaling to unit variance'; fit scope not stated."
+    },
+    "A4": {
+      "code": "one",
+      "evidence": "Sect. VI.B / Table 15: results 'for the first and the 10th round' of FL; local epochs E appear only as a symbol in Algorithm 3, no value."
+    },
+    "A5": {
+      "code": "different_or_unstated",
+      "evidence": "FL DNN compared with centralized DNN ('the performance of all global models are able to approximate the centralized model's performance', Sect. VI.B); no statement of equal training budget."
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "Centralized DT/RF/SVM/KNN/DNN trained by the authors (Sect. VI.A, Tables 12-14); FL results in Table 15 are the authors' own."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "FL results (Table 15) report accuracy only (global, best client, worst client)."
+    },
+    "A8": {
+      "code": "yes",
+      "evidence": "Sect. VI.B: 'the results are obtained for two modes, namely, 1) non-independent and identically distributed (Non-IID) and 2) independent and identically distributed (IID)'."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "No repeated runs, SD or tests reported for FL (Sect. VI.B, Table 15)."
+    },
+    "A10": {
+      "code": "no",
+      "evidence": "Only Edge-IIoTset used for training and testing."
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "Only dataset link 'http://ieee-dataport.org/8939'; no code link."
+    }
+  },
+  "datasets": [
+    "Edge-IIoTset"
+  ],
+  "notes": "Coded only the federated-learning experiments (Sect. VI.B, Table 15) as instructed; K = 5, 10, 15. Non-IID construction method not described. Table 9 (DL classifier settings) could not be read reliably through the fetch tool (inconsistent outputs: one reported batch 32 / lr 0.001, none reported epochs); A4 relies on the text, where only rounds (1st and 10th) are reported - second coder should check Table 9 for local epochs. Direct PDF download blocked by egress proxy."
+}

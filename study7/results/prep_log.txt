@@ -1,0 +1,34 @@
+wustl rows 1194464 with time and label 1194464
+wustl features 41 categorical [] dropped []
+wustl after duplicate removal 1172268
+wustl systematic sample every 4th record -> 293067
+wustl train 175841 records, attack share 0.0758
+wustl validation 117226 records, attack share 0.0256
+wustl region rule satisfied: True
+wustl saved /home/claude/s7/data/wustl.npz sha256 3fd18ed43c1c9ba443005d4cbd0f133e791caaae2bf95bc2b091faf026f1ccb7
+unsw rows 120000 with time and label 120000
+unsw features 38 categorical ['proto', 'state', 'service'] dropped []
+unsw after duplicate removal 323
+unsw label-count rule: 10 blocks leave a class below 1% in a region -> 10 interleaved blocks
+unsw train 162 records, attack share 0.0
+unsw validation 161 records, attack share 0.1925
+unsw region rule satisfied: False
+unsw saved /home/claude/s7/data/unsw.npz sha256 bf15e424ed2f0073942cd0f83cb34c37154c544260031540190cbf4bdc81a161
+--- addendum 1: UNSW-NB15 replaced by X-IIoTID; re-sealed
+xiiotid rows 820088 with time and label 819791
+xiiotid features 59 categorical ['Protocol', 'Service'] dropped []
+xiiotid after duplicate removal 700127
+xiiotid systematic sample every 3th record -> 233376
+xiiotid train 140026 records, attack share 0.4092
+xiiotid validation 93350 records, attack share 0.4391
+xiiotid region rule satisfied: True
+xiiotid saved /home/claude/s7/data/xiiotid.npz sha256 f63b7050af9a81bbbce946959db05ffdd96c11284dc9347cd5dff29e165ed2d1
+--- addendum 2: chunked Edge-IIoTset reading; re-sealed
+edgeiiot rows 2219201 with time and label 2096419
+edgeiiot features 49 categorical ['arp.dst.proto_ipv4', 'arp.src.proto_ipv4', 'dns.qry.name.len', 'http.referer', 'http.request.method', 'http.request.version', 'mqtt.conack.flags', 'mqtt.protoname', 'mqtt.topic'] dropped ['http.file_data', 'http.request.full_uri', 'http.request.uri.query', 'mqtt.msg', 'tcp.options', 'tcp.payload']
+edgeiiot after duplicate removal 1786219
+edgeiiot systematic sample every 6th record -> 297704
+edgeiiot train 178622 records, attack share 0.3102
+edgeiiot validation 119082 records, attack share 0.1265
+edgeiiot region rule satisfied: True
+edgeiiot saved /home/claude/s7/data/edgeiiot.npz sha256 b5b8e18499a6d6ad19a11da9e4cfb58d76180feea0e8c00bc998303031fe27dc

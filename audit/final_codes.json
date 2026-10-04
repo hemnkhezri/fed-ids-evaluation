@@ -1,0 +1,434 @@
+[
+ {
+  "id": "C01",
+  "citation": "Lazzarini R, Tianfield H, Charissis V. Federated learning for IoT intrusion detection. AI 4(3):509-530, 2023. doi:10.3390/ai4030028",
+  "url": "https://researchonline.gcu.ac.uk/ws/portalfiles/portal/77359126/77089336.pdf",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "all_data",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "no",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C02",
+  "citation": "Belarbi O, Spyridopoulos T, Anthi E, Mavromatis I, Carnelli P, Khan A. Federated deep learning for intrusion detection in IoT networks. IEEE GLOBECOM 2023, pp. 237-242. doi:10.1109/GLOBECOM54140.2023.10437860",
+  "url": "https://orca.cardiff.ac.uk/id/eprint/166936/1/Federated_Deep_Learning_for_Intrusion_Detection_in_IoT_Networks.pdf",
+  "codes": {
+   "A1": "random",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C03",
+  "citation": "Karunamurthy A, Vijayan K, Kshirsagar PR, Tan KT. An optimal federated learning-based intrusion detection for IoT environment. Scientific Reports 15:8696, 2025. doi:10.1038/s41598-025-93501-8",
+  "url": "https://www.nature.com/articles/s41598-025-93501-8",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "neither",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "unclear",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C04",
+  "citation": "Olanrewaju-George B, Pranggono B. Federated learning-based intrusion detection system for the internet of things using unsupervised and supervised deep learning models. Cyber Security and Applications 3:100068, 2025. doi:10.1016/j.csa.2024.100068",
+  "url": "https://www.sciencedirect.com/science/article/pii/S2772918424000341",
+  "codes": {
+   "A1": "random",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "one",
+   "A5": "copied",
+   "A6": "copied",
+   "A7": "no",
+   "A8": "no",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C05",
+  "citation": "Anwer RW, Abrar M, Ullah M, Salam A, Ullah F. Advanced intrusion detection in the industrial Internet of Things using federated learning and LSTM models. Ad Hoc Networks 178:103991, 2025. doi:10.1016/j.adhoc.2025.103991",
+  "url": "https://www.sciencedirect.com/science/article/pii/S1570870525002392",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "one",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "unclear",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C07",
+  "citation": "Bhavsar M, Bekele Y, Roy K, Kelly J, Limbrick D. FL-IDS: Federated learning-based intrusion detection system using edge devices for transportation IoT. IEEE Access 12, 2024. doi:10.1109/ACCESS.2024.3386631",
+  "url": "https://www.academia.edu/122657176/FL_IDS_Federated_Learning_Based_Intrusion_Detection_System_Using_Edge_Devices_for_Transportation_IoT (published IEEE Access version, author upload; read via web text extraction)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "one",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "unclear",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C08",
+  "citation": "Mhawish MY, Aljamal M, Alsarhan A, Khassawneh BS, Akhunzada A, Al-Shamayleh AS. A novel adaptive generalization-guided federated learning for multimodal industrial IoT intrusion detection under statistical heterogeneity. IEEE Open Journal of the Computer Society, 2026. doi:10.1109/OJCS.2026.3703977",
+  "url": "(read from the authors' version)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "all_data",
+   "A4": "one",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "runs_with_dispersion_or_test",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C11",
+  "citation": "Bilal MA, Islam IU, Idrees S, Qasim M, Khan MJ, Khan J, et al. Dataset-centric evaluation of federated intrusion detection models in IoT networks. Scientific Reports 16:2683, 2026. doi:10.1038/s41598-025-32567-w",
+  "url": "https://www.nature.com/articles/s41598-025-32567-w (read via web text extraction)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "train_only",
+   "A4": "both",
+   "A5": "same",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "no",
+   "A9": "single_or_not_reported",
+   "A10": "yes",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "C18",
+  "citation": "Al Tfaily F, Ghalmane Z, Brahmia MA, Hazimeh H, Jaber A, Zghal M. Graph-based federated learning approach for intrusion detection in IoT networks. Scientific Reports 15:41264, 2025. doi:10.1038/s41598-025-25175-1",
+  "url": "https://www.nature.com/articles/s41598-025-25175-1 (read via web text extraction; cross-checked with PDF copy https://d-nb.info/1387602233/34)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "one",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "yes",
+   "A8": "yes",
+   "A9": "runs_no_dispersion",
+   "A10": "no",
+   "A11": "yes"
+  }
+ },
+ {
+  "id": "Q1-02",
+  "citation": "Chaurasia N, Ram M, Verma P, Mehta N, Bharot N. A federated learning approach to network intrusion detection using residual networks in industrial IoT networks. The Journal of Supercomputing 80(13):18325-18346, 2024. doi:10.1007/s11227-024-06153-2",
+  "url": "https://link.springer.com/article/10.1007/s11227-024-06153-2 (read via web text extraction)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "same",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "no",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q1-07",
+  "citation": "Rashid MM, Khan SU, Eusufzai F, Redwan MA, Sabuj SR, Elsharief M. A federated learning-based approach for improving intrusion detection in industrial Internet of Things networks. Network 3(1):158-179, 2023. doi:10.3390/network3010008",
+  "url": "https://www.academia.edu/99584694/A_Federated_Learning_Based_Approach_for_Improving_Intrusion_Detection_in_Industrial_Internet_of_Things_Networks",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "copied",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q1-08",
+  "citation": "Khraisat A, Alazab A, Alazab M, Obeidat A, Singh S, Jan T. Federated learning for intrusion detection in IoT environments: a privacy-preserving strategy. Discover Internet of Things 5:72, 2025. doi:10.1007/s43926-025-00169-7",
+  "url": "https://link.springer.com/article/10.1007/s43926-025-00169-7",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "all_data",
+   "A4": "one",
+   "A5": "copied",
+   "A6": "copied",
+   "A7": "no",
+   "A8": "no",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q1-09",
+  "citation": "Fenanir S, Semchedine F. Smart intrusion detection in IoT edge computing using federated learning. Revue d'Intelligence Artificielle 37(5):1133-1145, 2023. doi:10.18280/ria.370505",
+  "url": "https://iieta.org/download/file/fid/112338",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "copied",
+   "A6": "copied",
+   "A7": "no",
+   "A8": "unclear",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q2-07",
+  "citation": "Hossain MA, Saif S, Islam MS. A novel federated learning approach for IoT botnet intrusion detection using SHAP-based knowledge distillation. Complex & Intelligent Systems 11:422, 2025. doi:10.1007/s40747-025-02001-9",
+  "url": "https://link.springer.com/article/10.1007/s40747-025-02001-9",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "neither",
+   "A5": "copied",
+   "A6": "copied",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q2-10",
+  "citation": "Albanbay N, Tursynbek Y, Graffi K, Uskenbayeva R, Kalpeyeva Z, Abilkaiyr Z, Ayapov Y. Federated learning-based intrusion detection in IoT networks: performance evaluation and data scaling study. Journal of Sensor and Actuator Networks 14(4):78, 2025. doi:10.3390/jsan14040078",
+  "url": "https://www.mdpi.com/2224-2708/14/4/78",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q3-02",
+  "citation": "Chennoufi S, Han Y, Blanc G, De Cristofaro E, Kiennert C. PROTEAN: Federated intrusion detection in non-IID environments through prototype-based knowledge sharing. ESORICS 2025. arXiv:2507.05524",
+  "url": "https://arxiv.org/pdf/2507.05524",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "runs_with_dispersion_or_test",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q3-03",
+  "citation": "Sengan S, Shieh C-S. Non-IID and aware federated intrusion detection with PBFT with secured model aggregation for multi institutional healthcare internet of things networks. Scientific Reports 16:23481, 2026. doi:10.1038/s41598-026-56167-4",
+  "url": "https://www.nature.com/articles/s41598-026-56167-4.pdf (HTML at nature.com and PMC13415842 truncated before Sect. 6; PDF read)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "copied",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "yes"
+  }
+ },
+ {
+  "id": "Q3-07",
+  "citation": "Du J. A novel intrusion detection system for IIoT in 5G networks using attention-augmented federated learning and lightweight transformer architectures. Scientific Reports 16:23974, 2026. doi:10.1038/s41598-026-54748-x",
+  "url": "https://www.nature.com/articles/s41598-026-54748-x (HTML) and https://www.nature.com/articles/s41598-026-54748-x.pdf (tables)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "runs_with_dispersion_or_test",
+   "A10": "yes",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q4-03",
+  "citation": "Javeed D, Saeed MS, Adil M, Kumar P, Jolfaei A. A federated learning-based zero trust intrusion detection system for Internet of Things. Ad Hoc Networks 162:103540, 2024. doi:10.1016/j.adhoc.2024.103540",
+  "url": "https://researchnow-admin.flinders.edu.au/ws/portalfiles/portal/124783832/Javeed_Federated_P2024.pdf (published version, Flinders repository); ScienceDirect HTML truncated after Sect. 3",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "both",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "unclear",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q4-05",
+  "citation": "Wang J, Yang K, Li M. NIDS-FGPA: A federated learning network intrusion detection algorithm based on secure aggregation of gradient similarity models. PLOS ONE 19(10):e0308639, 2024. doi:10.1371/journal.pone.0308639",
+  "url": "https://pdfs.semanticscholar.org/9bbf/929836245d03faec26788b048ee3f42a4e3b.pdf (PDF of the PLOS article; journals.plos.org and PMC11500881 HTML also consulted but truncated)",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "one",
+   "A5": "copied",
+   "A6": "copied",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q4-07",
+  "citation": "Ferrag MA, Friha O, Hamouda D, Maglaras L, Janicke H. Edge-IIoTset: A new comprehensive realistic cyber security dataset of IoT and IIoT applications for centralized and federated learning. IEEE Access 10:40281-40306, 2022. doi:10.1109/ACCESS.2022.3165809",
+  "url": "https://ro.ecu.edu.au/cgi/viewcontent.cgi?article=1552&context=ecuworks2022-2026",
+  "codes": {
+   "A1": "random",
+   "A2": "no",
+   "A3": "not_reported",
+   "A4": "one",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "yes",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q4-09",
+  "citation": "Bukhari SMS, Zafar MH, Abou Houran M, Qadir Z, Moosavi SKR, Sanfilippo F. Enhancing cybersecurity in Edge IIoT networks: An asynchronous federated learning approach with a deep hybrid detection model. Internet of Things 27:101252, 2024. doi:10.1016/j.iot.2024.101252",
+  "url": "https://www.sciencedirect.com/science/article/pii/S2542660524001938",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "neither",
+   "A5": "different_or_unstated",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "unclear",
+   "A9": "single_or_not_reported",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q6-04",
+  "citation": "Wang Y, Li J, Han Z, Cheng P, Kumar R. FedSTGCN: a novel federated spatiotemporal graph learning-based network intrusion detection method for the Internet of Things. Frontiers of Information Technology & Electronic Engineering 26(7):1164-1179, 2025. doi:10.1631/FITEE.2400932",
+  "url": "https://jzus.zju.edu.cn/opentxt.php?doi=10.1631/FITEE.2400932",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "one",
+   "A5": "same",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "no",
+   "A9": "runs_with_dispersion_or_test",
+   "A10": "no",
+   "A11": "no"
+  }
+ },
+ {
+  "id": "Q6-07",
+  "citation": "Sanjalawe Y, Al-E'mari S, Alqurashi T, Alharbi ZH, Makhadmeh SN, Alsharaiah M. Adaptive graph attention-based federated learning for IoT intrusion detection: mitigating poisoning attacks. PeerJ Computer Science 11:e3281, 2025. doi:10.7717/peerj-cs.3281",
+  "url": "https://peerj.com/articles/cs-3281/",
+  "codes": {
+   "A1": "not_reported",
+   "A2": "unclear",
+   "A3": "not_reported",
+   "A4": "neither",
+   "A5": "same",
+   "A6": "rerun",
+   "A7": "no",
+   "A8": "unclear",
+   "A9": "runs_with_dispersion_or_test",
+   "A10": "no",
+   "A11": "no"
+  }
+ }
+]

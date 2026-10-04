@@ -1,0 +1,262 @@
+[
+ {
+  "dataset": "wustl",
+  "partition_seed": 101,
+  "attempts": 3,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   126,
+   50,
+   26,
+   41
+  ],
+  "train_attack": [
+   0,
+   29,
+   26,
+   1
+  ],
+  "val_sizes": [
+   69,
+   35,
+   22,
+   34
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 102,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   95,
+   13,
+   86,
+   49
+  ],
+  "train_attack": [
+   3,
+   4,
+   0,
+   49
+  ],
+  "val_sizes": [
+   58,
+   15,
+   49,
+   38
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 103,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   13,
+   8,
+   82,
+   140
+  ],
+  "train_attack": [
+   2,
+   8,
+   41,
+   5
+  ],
+  "val_sizes": [
+   13,
+   7,
+   56,
+   84
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 104,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   23,
+   176,
+   17,
+   27
+  ],
+  "train_attack": [
+   23,
+   3,
+   16,
+   14
+  ],
+  "val_sizes": [
+   16,
+   108,
+   14,
+   22
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 105,
+  "attempts": 2,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   83,
+   26,
+   22,
+   112
+  ],
+  "train_attack": [
+   0,
+   25,
+   9,
+   22
+  ],
+  "val_sizes": [
+   50,
+   19,
+   17,
+   74
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 106,
+  "attempts": 10,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   113,
+   18,
+   62,
+   50
+  ],
+  "train_attack": [
+   12,
+   9,
+   9,
+   26
+  ],
+  "val_sizes": [
+   66,
+   12,
+   44,
+   38
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 107,
+  "attempts": 3,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   43,
+   107,
+   51,
+   42
+  ],
+  "train_attack": [
+   2,
+   10,
+   43,
+   1
+  ],
+  "val_sizes": [
+   22,
+   68,
+   44,
+   26
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 108,
+  "attempts": 3,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   61,
+   27,
+   144,
+   11
+  ],
+  "train_attack": [
+   29,
+   3,
+   16,
+   8
+  ],
+  "val_sizes": [
+   38,
+   16,
+   97,
+   9
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 109,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "extreme",
+  "train_sizes": [
+   57,
+   118,
+   12,
+   56
+  ],
+  "train_attack": [
+   0,
+   1,
+   0,
+   55
+  ],
+  "val_sizes": [
+   28,
+   84,
+   4,
+   44
+  ],
+  "val_attack_total": 47
+ },
+ {
+  "dataset": "wustl",
+  "partition_seed": 110,
+  "attempts": 4,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   80,
+   48,
+   69,
+   46
+  ],
+  "train_attack": [
+   16,
+   2,
+   1,
+   37
+  ],
+  "val_sizes": [
+   52,
+   36,
+   43,
+   29
+  ],
+  "val_attack_total": 47
+ }
+]

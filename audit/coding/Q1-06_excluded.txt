@@ -1,0 +1,1 @@
+Q1-06 excluded (criterion 4): full text still not readable on 2026-09-30. The MMU e-space item page (e-space.mmu.ac.uk/634486, accepted version, CC BY) exposes no resolvable PDF URL to the fetch tool. IEEE Xplore returned an empty page, ACM DL returned 403, ResearchGate returned 429 and Scribd did not render. Eligibility under 1-3 therefore could not be checked from the methods.

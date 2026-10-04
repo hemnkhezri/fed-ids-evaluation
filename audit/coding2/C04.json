@@ -1,0 +1,55 @@
+{
+ "id": "C04",
+ "citation": "Olanrewaju-George & Pranggono 2025, Cyber Security and Applications 3, 100068",
+ "url_read": "https://www.sciencedirect.com/science/article/pii/S2772918424000341 (HTML full text via WebFetch)",
+ "items": {
+  "A1": {
+   "code": "random",
+   "evidence": "Data preparation: 'a random sample of the abnormal data is created and concatenated with the normal testing set ... They are shuffled'; no ratios, no temporal split."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "Models (AE, DNN) take per-record 115-feature vectors; no windows/sequences described."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "'the normal training set, the normal threshold set, and the mixed data are scaled using a scaler function that returns the data between 0 and 1' - fit scope not stated."
+  },
+  "A4": {
+   "code": "one",
+   "evidence": "Local epochs given ('training epochs of 40'); number of FL rounds not stated anywhere (no 'round'/'iteration')."
+  },
+  "A5": {
+   "code": "copied",
+   "evidence": "Table 4 values 'cited from references [6], [7], [8], [11], [12], [14]'; Table 5 ML baselines from prior work; non-FL counterparts' settings vs FL not stated."
+  },
+  "A6": {
+   "code": "copied",
+   "evidence": "Table 4: 'Performance comparison of the proposed FL-DNN' with values from other references; Table 5 LR/RF/SVM/NB accuracies from prior work. Non-FL AE/DNN re-run (Figs 5-7)."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "'Accuracy, precision Recall, F1-score, TPR, and FPR metrics are defined' (Table 1); no MCC."
+  },
+  "A8": {
+   "code": "no",
+   "evidence": "Clients are the nine N-BaIoT devices: 'All nine client IoT devices are tested in this study' - natural device split; no non-IID partition discussed."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs, std or tests reported (Results, Figs 5-7 'Average' is across devices)."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "Only N-BaIoT used."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link or GitHub in text."
+  }
+ },
+ "datasets": [
+  "N-BaIoT"
+ ],
+ "notes": "A1: split procedure only partially described (random sample of abnormal data mixed with normal test set, shuffled); coded random. A5/A6: mixed - FL vs non-FL own comparison plus literature tables with copied numbers; coded copied. Read via summarizing fetch; quotes verified as returned by the tool."
+}

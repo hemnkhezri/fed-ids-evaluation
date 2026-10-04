@@ -1,0 +1,57 @@
+{
+ "id": "C05",
+ "citation": "Anwer RW, Abrar M, Ullah M, Salam A, Ullah F. Advanced intrusion detection in the industrial Internet of Things using federated learning and LSTM models. Ad Hoc Networks 178:103991, 2025. doi:10.1016/j.adhoc.2025.103991",
+ "url_read": "https://www.sciencedirect.com/science/article/pii/S1570870525002392",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "Sec 3.8: \"A standard 80:10:10 split was used for training, validation, and testing\" - random/stratified/temporal not stated."
+  },
+  "A2": {
+   "code": "unclear",
+   "evidence": "CNN-Bi-LSTM \"to capture temporal dependencies\"; \"Bi-LSTM networks are beneficial for analyzing sequential data\"; no windows, timesteps or input shape described."
+  },
+  "A3": {
+   "code": "not_reported",
+   "evidence": "Sec 3.2: min-max scaling \"Each feature xi is transformed into the range [0,1]\" and SMOTE; fit set and order relative to the split not stated."
+  },
+  "A4": {
+   "code": "one",
+   "evidence": "Sec 3.8: \"50 communication rounds\"; \"Training was carried out over 50 epochs, with early stopping\" - local epochs per round (E in Algorithm 1) not specified."
+  },
+  "A5": {
+   "code": "different_or_unstated",
+   "evidence": "No statement that the centralized and FL variants use the same budget (Sec 3.8)."
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "Only centralized vs FL versions of the authors' own model (Table 3); no external methods or literature numbers."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Sec 3.7: \"accuracy, precision, recall, F1-score, and Area Under the Curve (AUC)\" plus TPR/FPR; no MCC/balanced accuracy."
+  },
+  "A8": {
+   "code": "unclear",
+   "evidence": "\"training was distributed across multiple clients\"; number of clients and partition not described."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "No repeated runs, std or statistical test reported."
+  },
+  "A10": {
+   "code": "no",
+   "evidence": "X-IIoTID, WUSTL-IIoT, Edge-IIoTset each evaluated on its own 80:10:10 split; no cross-dataset test."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link or availability statement."
+  }
+ },
+ "datasets": [
+  "X-IIoTID",
+  "WUSTL-IIoT",
+  "Edge-IIoTset"
+ ],
+ "notes": "The only comparison is centralized vs federated versions of the same model, coded rerun (as the screening accepted it as a baseline). If windows are later confirmed, A2 would depend on the unspecified split type."
+}

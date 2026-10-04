@@ -1,0 +1,44 @@
+{
+ "wustl": {
+  "IN_DIM": 41,
+  "params_FedGTCL": 18370,
+  "params_GCNGRU": 31938,
+  "params_LSTM": 27522,
+  "uplink_KiB_FedGTCL_topS": 32.3,
+  "uplink_KiB_FedGTCL_dense": 71.8,
+  "uplink_KiB_GCNGRU": 124.8,
+  "ms_per_seq_reference": 1.025,
+  "ms_per_seq_batched_dense": 0.172,
+  "ms_per_seq_sparse": 0.248,
+  "ms_per_seq_GCNGRU_batched": 0.135,
+  "median_hosts": 12
+ },
+ "toniot": {
+  "IN_DIM": 36,
+  "params_FedGTCL": 18210,
+  "params_GCNGRU": 31618,
+  "params_LSTM": 26242,
+  "uplink_KiB_FedGTCL_topS": 32.0,
+  "uplink_KiB_FedGTCL_dense": 71.1,
+  "uplink_KiB_GCNGRU": 123.5,
+  "ms_per_seq_reference": 1.198,
+  "ms_per_seq_batched_dense": 0.243,
+  "ms_per_seq_sparse": 0.47,
+  "ms_per_seq_GCNGRU_batched": 0.175,
+  "median_hosts": 13
+ },
+ "edgeiiot": {
+  "IN_DIM": 49,
+  "params_FedGTCL": 18626,
+  "params_GCNGRU": 32450,
+  "params_LSTM": 29570,
+  "uplink_KiB_FedGTCL_topS": 32.7,
+  "uplink_KiB_FedGTCL_dense": 72.8,
+  "uplink_KiB_GCNGRU": 126.8,
+  "ms_per_seq_reference": 1.021,
+  "ms_per_seq_batched_dense": 0.127,
+  "ms_per_seq_sparse": 0.133,
+  "ms_per_seq_GCNGRU_batched": 0.114,
+  "median_hosts": 2
+ }
+}

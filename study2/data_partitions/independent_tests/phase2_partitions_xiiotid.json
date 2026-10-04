@@ -1,0 +1,262 @@
+[
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 101,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   1520,
+   33,
+   696,
+   3247
+  ],
+  "train_attack": [
+   1254,
+   33,
+   2,
+   3196
+  ],
+  "val_sizes": [
+   1049,
+   22,
+   186,
+   2407
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 102,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   709,
+   667,
+   479,
+   3641
+  ],
+  "train_attack": [
+   214,
+   612,
+   24,
+   3635
+  ],
+  "val_sizes": [
+   302,
+   467,
+   132,
+   2763
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 103,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   315,
+   611,
+   3526,
+   1044
+  ],
+  "train_attack": [
+   237,
+   607,
+   3321,
+   320
+  ],
+  "val_sizes": [
+   196,
+   432,
+   2588,
+   448
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 104,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   1700,
+   1414,
+   1248,
+   1134
+  ],
+  "train_attack": [
+   1697,
+   495,
+   1243,
+   1050
+  ],
+  "val_sizes": [
+   1329,
+   571,
+   957,
+   807
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 105,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   137,
+   1384,
+   2775,
+   1200
+  ],
+  "train_attack": [
+   137,
+   594,
+   2707,
+   1047
+  ],
+  "val_sizes": [
+   92,
+   652,
+   2138,
+   782
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 106,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   2743,
+   133,
+   1799,
+   821
+  ],
+  "train_attack": [
+   2743,
+   114,
+   1627,
+   1
+  ],
+  "val_sizes": [
+   2019,
+   83,
+   1348,
+   214
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 107,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   15,
+   4497,
+   248,
+   736
+  ],
+  "train_attack": [
+   10,
+   3774,
+   116,
+   585
+  ],
+  "val_sizes": [
+   19,
+   3022,
+   131,
+   492
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 108,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   3718,
+   241,
+   1462,
+   75
+  ],
+  "train_attack": [
+   3711,
+   0,
+   719,
+   55
+  ],
+  "val_sizes": [
+   2799,
+   68,
+   758,
+   39
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 109,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   287,
+   813,
+   92,
+   4304
+  ],
+  "train_attack": [
+   0,
+   146,
+   36,
+   4303
+  ],
+  "val_sizes": [
+   79,
+   304,
+   36,
+   3245
+  ],
+  "val_attack_total": 3394
+ },
+ {
+  "dataset": "xiiotid",
+  "partition_seed": 110,
+  "attempts": 1,
+  "fallback": false,
+  "regime": "moderate",
+  "train_sizes": [
+   1996,
+   73,
+   2545,
+   882
+  ],
+  "train_attack": [
+   1996,
+   58,
+   2430,
+   1
+  ],
+  "val_sizes": [
+   1481,
+   51,
+   1891,
+   241
+  ],
+  "val_attack_total": 3394
+ }
+]

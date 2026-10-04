@@ -1,0 +1,57 @@
+{
+  "id": "C11",
+  "citation": "Bilal MA, Ul Islam I, Idrees S, Qasim M, Khan MJ, Khan J, et al. Dataset-centric evaluation of federated intrusion detection models in IoT networks. Scientific Reports 16:2683, 2026. doi:10.1038/s41598-025-32567-w",
+  "url_read": "https://www.nature.com/articles/s41598-025-32567-w (read via web text extraction)",
+  "items": {
+    "A1": {
+      "code": "not_reported",
+      "evidence": "Methodology: 'each dataset was split among multiple clients ... (Table 2)'; 'Per client, we fit a standard scaler on the training split' — how train/test splits were formed is not stated (only a 'stratified 90/10 split' for validation in ablations)."
+    },
+    "A2": {
+      "code": "no",
+      "evidence": "Methodology: LSTM inputs 'fed as a length-1 sequence–treating each flow as one timestep'."
+    },
+    "A3": {
+      "code": "train_only",
+      "evidence": "Methodology: 'z-score normalization (fit on training split only); in cross-dataset tests the source scaler is applied to the target.'"
+    },
+    "A4": {
+      "code": "both",
+      "evidence": "'typically 50 rounds for single-dataset cases and up to 100 for the combined one'; 'training locally for 5 epochs with mini-batches of 128 samples.'"
+    },
+    "A5": {
+      "code": "same",
+      "evidence": "'These settings were kept consistent across algorithms to fairly compare FedAvg, FedProx, and FedNova.'"
+    },
+    "A6": {
+      "code": "rerun",
+      "evidence": "FedAvg, FedProx, FedNova with LSTM/Transformer run by the authors (Tables 5-9); no comparison table with numbers from other papers."
+    },
+    "A7": {
+      "code": "no",
+      "evidence": "Metrics: 'Accuracy, Precision, Recall, F1-Score, AUC' and confusion matrix; no MCC/balanced accuracy/G-mean."
+    },
+    "A8": {
+      "code": "no",
+      "evidence": "Clients formed by natural grouping: 'Edge-IIoTset ... 6 clients by device/application; CIC-IoT2023 into 10 clients by device group; TII-SSRC-23 into 5 clients by stratified random flows' — natural/IID splits only, no synthetic non-IID partition."
+    },
+    "A9": {
+      "code": "single_or_not_reported",
+      "evidence": "Only fixed seeds stated ('Global seed 42 with dataset seeds Edge=1729, CIC=2023, TII=1103'); no multiple runs, dispersion or tests."
+    },
+    "A10": {
+      "code": "yes",
+      "evidence": "Cross-dataset design: 'train on one dataset and test on another'; 'For each source model we apply the source-fitted scaler to the target features'; 'Metrics are macro-averaged on the target test set.'"
+    },
+    "A11": {
+      "code": "no",
+      "evidence": "Data availability lists dataset links only; 'Exact client indices and split files are provided in the supplementary package' — no code link."
+    }
+  },
+  "datasets": [
+    "Edge-IIoTset",
+    "CIC-IoT2023",
+    "TII-SSRC-23"
+  ],
+  "notes": "Bash egress to nature.com blocked; read through web text extraction (several targeted passes). No centralized baseline results table found despite abstract claim 'federated models approach centralized performance in-domain'. A8: the paper calls its device-based clients 'non-IID', but per protocol a device/application grouping is a natural split, so coded no; flag if second coder reads it otherwise. A sensitivity sweep reports macro-F1 changes '≤ ±0.5 percentage points' across hyperparameters, not repeated runs."
+}

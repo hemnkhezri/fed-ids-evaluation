@@ -1,0 +1,57 @@
+{
+ "id": "C11",
+ "citation": "Bilal et al. 2026, Scientific Reports 16, 2683",
+ "url_read": "https://www.nature.com/articles/s41598-025-32567-w (HTML full text via WebFetch; PDF download blocked by proxy)",
+ "items": {
+  "A1": {
+   "code": "not_reported",
+   "evidence": "Clients: 'Edge-IIoTset was divided into 6 clients based on device types'; only 'client-held validation (stratified 90/10 split)' stated; construction of the test set not described ('Exact client indices and split files are provided in the supplementary package')."
+  },
+  "A2": {
+   "code": "no",
+   "evidence": "Deep learning models: LSTM 'each flow...fed as a length-1 sequence–treating each flow as one timestep'; Transformer uses pseudo-positions from one feature vector."
+  },
+  "A3": {
+   "code": "train_only",
+   "evidence": "'Per client, we fit a standard scaler on the training split and apply it unchanged to validation and test.'"
+  },
+  "A4": {
+   "code": "both",
+   "evidence": "FL setup: 'typically 50 rounds for single-dataset cases and up to 100 for the combined one'; 'training locally for 5 epochs with mini-batches of 128 samples.'"
+  },
+  "A5": {
+   "code": "same",
+   "evidence": "FedAvg/FedProx/FedNova share settings: 'All clients participated synchronously in each round, training locally for 5 epochs'; identical learning rates/epochs 'to fairly compare FedAvg, FedProx, and FedNova.'"
+  },
+  "A6": {
+   "code": "rerun",
+   "evidence": "'FedAvg is the baseline; FedProx ... and FedNova' implemented by authors; no table of numbers cited from prior works (Tables 5-8)."
+  },
+  "A7": {
+   "code": "no",
+   "evidence": "Evaluation metrics: Accuracy, Precision, Recall, F1-Score, AUC, Confusion Matrix; no MCC/balanced accuracy/G-mean."
+  },
+  "A8": {
+   "code": "yes",
+   "evidence": "Edge-IIoTset clients by device type, 'each client had distinct attack profiles'; FedProx 'stabilizes client drift under non-IID class mixtures'; TII-SSRC-23 'stratified random flows...to simulate an i.i.d. setting' (Table 2)."
+  },
+  "A9": {
+   "code": "single_or_not_reported",
+   "evidence": "Only fixed seeds: 'Global seed 42 with dataset seeds Edge=1729, CIC=2023, TII=1103'; no repeated runs or dispersion reported."
+  },
+  "A10": {
+   "code": "yes",
+   "evidence": "Cross-dataset generalizability: '3 x 2 x 3 design: source dataset ... ' models trained on one dataset tested on the others; 'up to 30 percentage-point macro-F1 loss'."
+  },
+  "A11": {
+   "code": "no",
+   "evidence": "No code link; Data availability gives dataset links only; 'split files are provided in the supplementary package'."
+  }
+ },
+ "datasets": [
+  "Edge-IIoTset",
+  "CIC-IoT2023",
+  "TII-SSRC-23"
+ ],
+ "notes": "A1: test-set construction not stated in the main text (only stratified 90/10 train/validation within clients); coded not_reported. Benign/attack 'roughly balanced'. A8: non-IID arises from device-type partition (Edge-IIoTset), which could be read as a natural split; coded yes because authors construct and describe it as non-IID versus an explicit IID partition for TII-SSRC-23. A5 rounds 'typically 50' (convergence-based)."
+}

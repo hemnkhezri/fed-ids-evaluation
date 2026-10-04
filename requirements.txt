@@ -1,0 +1,8 @@
+torch==2.14.0
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+openpyxl

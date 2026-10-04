@@ -1,0 +1,20 @@
+{
+ "n_papers": 7,
+ "n_pairs": 77,
+ "agreement": 0.974025974025974,
+ "kappa": 0.9697029313397599,
+ "disagreements": [
+  [
+   "C11",
+   "A8",
+   "no",
+   "yes"
+  ],
+  [
+   "Q3-03",
+   "A6",
+   "rerun",
+   "copied"
+  ]
+ ]
+}
