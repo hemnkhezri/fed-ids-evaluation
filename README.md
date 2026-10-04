@@ -1,5 +1,8 @@
 # Evaluation Choices Decide the Winner: code, sealed plans and results
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23142334.svg)](https://doi.org/10.5281/zenodo.23142334)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Code, sealed analysis plans and every run-level result for the paper
 
 > Khezri, H., & Trik, M. *Evaluation Choices Decide the Winner: A Pre-Registered Re-Evaluation of Federated
@@ -77,3 +80,5 @@ authors' request, to draft, seal and run Studies 6 and 7. The paper's declaratio
 ## Licence and citation
 
 Code: MIT (see `LICENSE`). Cite the paper and this archive (see `CITATION.cff`).
+
+Archive (all versions): https://doi.org/10.5281/zenodo.23142334
