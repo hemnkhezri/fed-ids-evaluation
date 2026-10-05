@@ -82,3 +82,11 @@ authors' request, to draft, seal and run Studies 6 and 7. The paper's declaratio
 Code: MIT (see `LICENSE`). Cite the paper and this archive (see `CITATION.cff`).
 
 Archive (all versions): https://doi.org/10.5281/zenodo.23142334
+
+## Large file not included
+
+`study4/data/unsw_base.pkl` (about 390 MB, processed UNSW-NB15 window features)
+exceeds GitHub's file-size limit and is not part of this repository or the
+Zenodo archive. It is produced by `study4/code/unsw_partitions.py` from the
+UNSW-NB15 files; its SHA-256 is recorded in the Study 4 seal. The file is
+available from the corresponding author on request.
