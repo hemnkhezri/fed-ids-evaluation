@@ -20,7 +20,7 @@ published federated IDS studies and a per-record study showing that random recor
 FedGTCL itself, with the pilot results re-examined here as Study 1, is described in a separate manuscript by the
 same authors (Khezri, H., & Trik, M. *Reliable Federated Intrusion Detection for Industrial IoT under Non-IID
 Heterogeneity: A Lightweight Graph-Temporal Contrastive Learning Approach*, under review). Its code is at
-https://github.com/hemnkhezri/FedGTCL. That manuscript summarizes the findings of this one and restricts its claim to
+https://github.com/hemnkhezri/FedGTCL (archived at https://doi.org/10.5281/zenodo.23592623). That manuscript summarizes the findings of this one and restricts its claim to
 short local training.
 
 ## Layout
