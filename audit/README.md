@@ -4,5 +4,5 @@
 - `coding/`: first coding (AI assistant), one file per paper, with the quoted evidence for every code.
 - `coding2/`, `reliability*.json`: blind second coding (AI assistant) of a random sample and the agreement.
 - `author_check/`: sheets in which one author checked all 264 codes against the papers.
-- `final_codes.json`, `tallies_final.json`: codes after the author check (used in Table 3, Fig. 3 and Table S8);
+- `final_codes.json`, `tallies_final.json`: codes after the author check (used in Table 4, Fig. 3 and Table S8);
   `tallies_before_author_check.json`: counts before it.

@@ -15,6 +15,14 @@ FedProx at 1,000 steps and was worse at 3,000 steps or with a re-tuned learning 
 30-step training budget at which the baselines collapsed to one class. The repository also holds an audit of 24
 published federated IDS studies and a per-record study showing that random record splits raise MCC by about 0.15.
 
+## Related manuscript
+
+FedGTCL itself, with the pilot results re-examined here as Study 1, is described in a separate manuscript by the
+same authors (Khezri, H., & Trik, M. *Reliable Federated Intrusion Detection for Industrial IoT under Non-IID
+Heterogeneity: A Lightweight Graph-Temporal Contrastive Learning Approach*, under review). Its code is at
+https://github.com/hemnkhezri/FedGTCL. That manuscript summarizes the findings of this one and restricts its claim to
+short local training.
+
 ## Layout
 
 | Folder | Paper | Contents |
@@ -28,8 +36,8 @@ published federated IDS studies and a per-record study showing that random recor
 | `study6/` | Study 6, Section 5.2 | Budget curve up to 3,000 steps and learning-rate re-tuning: plan, seal, code, 750 runs, logs. |
 | `study7/` | Study 7, Section 5.5 | Per-record classifiers, random vs temporal split: plan with two dated addenda, three seals, code, 720 runs, logs. |
 | `audit/` | Section 4, Supplementary S9 | Literature audit: sealed protocol, screening log, two AI codings with evidence, reliability, author check sheets, final codes. |
-| `analysis/` | all tables and figures | `collect_numbers.py` (every number in the paper from the result files), `hier.py` (dataset-clustered re-analysis, Supplementary S13), figure scripts. |
-| `figures/` | Figs. 1-9, S1-S2 | Figures as PNG and PDF. |
+| `analysis/` | all tables and figures | `collect_numbers.py` (every number in the paper from the result files), `hier.py` (dataset-clustered re-analysis, Supplementary S13), `figs_paper.py` (all figures). |
+| `figures/` | Figs. 1-9, S1-S2 | The figures as they appear in the manuscript: 600-dpi PNG and vector PDF, drawn at printed width by `analysis/figs_paper.py`. |
 
 ## Sealing
 
@@ -50,7 +58,8 @@ python study3/code/analyze_s3.py study3/results/results_s3.jsonl <out_dir>
 python study5/code/analyze_s5.py study5/results/results_s5.jsonl <out_dir>
 python study6/code/analyze_s6.py        # writes study6/results/analysis_s6.json
 python study7/code/analyze_s7.py        # writes study7/results/analysis_s7.json
-python analysis/figs.py; python analysis/figs_new.py leakage audit s3dist curves; python analysis/figs_s67.py s6 s7
+python analysis/figs_paper.py                         # Figs. 1-9 (written to figures/)
+python analysis/figs_paper.py supp_curves supp_sparse # Figs. S1-S2
 ```
 
 ## Re-running the experiments
